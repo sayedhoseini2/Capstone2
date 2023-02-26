@@ -5,7 +5,7 @@ import tek.sdet.framework.base.BaseSetup;
 public class POMFactory extends BaseSetup {
 	private RetailHomePage homePage;
 	private RetailSignInPage signInPage;
-	private RetailAccountPage accountPage;
+	public RetailAccountPage accountPage;
 	
 	
 	public POMFactory() {
