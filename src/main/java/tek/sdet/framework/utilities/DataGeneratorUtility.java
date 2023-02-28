@@ -47,6 +47,10 @@ public class DataGeneratorUtility {
         	outPut=faker.address().secondaryAddress();
         } else if (input.equals("zipcode")) {
             outPut = faker.address().zipCode();
+        }
+            else if (input.equals("password")) {
+            	outPut=faker.expression("#{letterify 'Test@1?????'}");
+      
         }else if (input.equals("country")) {
                 outPut = "United States";
         } else 
