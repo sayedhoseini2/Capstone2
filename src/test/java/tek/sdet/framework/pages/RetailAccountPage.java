@@ -114,6 +114,18 @@ public class RetailAccountPage extends BaseSetup {
 	
     @FindBy(xpath="//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/h1[1]")	
 	public WebElement newCardInfoPage;
+
+    @FindBy(xpath="//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[3]/div[1]/div[2]/div[2]/button[1]")
+	public WebElement editAddressBtn;
+
+    @FindBy(xpath="//button[@id='addressBtn']")
+	public WebElement updateAddressBtn;
+    
+    @FindBy(xpath="//div[contains(text(),'Address Updated Successfully')]")
+	public WebElement addressUpdatedSuccessfully;
+
+    @FindBy(xpath="//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[3]/div[1]/div[2]/div[2]/button[2]")
+	public WebElement removeAddressBtn;
 	
 
 }

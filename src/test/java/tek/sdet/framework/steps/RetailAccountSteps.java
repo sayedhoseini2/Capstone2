@@ -78,6 +78,68 @@ public class RetailAccountSteps extends CommonUtility {
 	
 	
 	
+	@When("User click on edit address option")
+	public void userClickOnEditAddressOption() {
+	    click(factory.accountPage().editAddressBtn);
+	    logger.info("user clicked om edit address option");
+	}
+	@When("user fill new address form with below information")
+	public void userFillEditAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
+		List<List<String>> editAddressInfo= dataTable.asLists(String.class);
+		clearTextUsingSendKeys(factory.accountPage().country);
+	    selectByVisibleText(factory.accountPage.country,DataGeneratorUtility.data(editAddressInfo.get(0).get(0)));
+	    clearTextUsingSendKeys(factory.accountPage().addressFullNameField);
+	    sendText(factory.accountPage.addressFullNameField, DataGeneratorUtility.data(editAddressInfo.get(0).get(1)));
+	    clearTextUsingSendKeys(factory.accountPage().addressPhoneNumberField);
+	    sendText(factory.accountPage.addressPhoneNumberField, DataGeneratorUtility.data(editAddressInfo.get(0).get(2)));
+	    clearTextUsingSendKeys(factory.accountPage().AddressField);
+	    sendText(factory.accountPage.AddressField,DataGeneratorUtility.data(editAddressInfo.get(0).get(3)));
+	    clearTextUsingSendKeys(factory.accountPage().apartmentField);
+	    sendText(factory.accountPage.apartmentField, DataGeneratorUtility.data(editAddressInfo.get(0).get(4)));
+	    clearTextUsingSendKeys(factory.accountPage().cityField);
+	    sendText(factory.accountPage.cityField, DataGeneratorUtility.data(editAddressInfo.get(0).get(5)));
+	    clearTextUsingSendKeys(factory.accountPage().stateDropDown);
+	    selectByVisibleText(factory.accountPage.stateDropDown, DataGeneratorUtility.data(editAddressInfo.get(0).get(6)));
+	    clearTextUsingSendKeys(factory.accountPage().zipCodeField);
+	    sendText(factory.accountPage.zipCodeField,DataGeneratorUtility.data(editAddressInfo.get(0).get(7)));
+	    logger.info("user added new addss information provided in data table");;
+	}
+	@When("User click update Your Address button")
+	public void userClickUpdateYourAddressButton() {
+	   click(factory.accountPage().updateAddressBtn);
+	   logger.info("user clicked on update address button");
+	}
+	@Then("a message should be displayed ‘Address Updated Successfully’")
+	public void aMessageShouldBeDisplayedAddressUpdatedSuccessfully() {
+		waitTillPresence((factory.accountPage().addressUpdatedSuccessfully));
+		Assert.assertTrue(isElementDisplayed(factory.accountPage().addressUpdatedSuccessfully));
+		logger.info("Address updated successfully");
+	}
+
+
+
+	@When("User click on remove option of Address section")
+	public void userClickOnRemoveOptionOfAddressSection() {
+	   click(factory.accountPage().removeAddressBtn);
+	   logger.info("user clicked on remove address button");
+	}
+	@Then("Address details should be removed")
+	public void addressDetailsShouldBeRemoved() {
+	   
+	    logger.info("address removed");;
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	@When("User enter below information")
 	public void userEnterBelowInformation(io.cucumber.datatable.DataTable dataTable) {
@@ -167,7 +229,6 @@ public class RetailAccountSteps extends CommonUtility {
 		Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentUpdatedMessage));
 		logger.info("Payent method updated" );
 	}
-
 
 
 	

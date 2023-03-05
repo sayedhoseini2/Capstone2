@@ -23,7 +23,7 @@ Feature: Retail Application Account Feature
     And User click on Change Password button
     Then a message should be displayed2 'Password Updated Successfully'
 
-  @AddAddressTest
+  @AddAddress
   Scenario: Verify User can add an address
     When User click on Account option
     And User click on Add address option
@@ -31,6 +31,21 @@ Feature: Retail Application Account Feature
       | country | fullName | phoneNumber | StreetAddress | apt | city | state | zipcode |
     And User click Add address button
     Then a message should be displayed 'Address Added Successfully'
+
+  @EditAddress
+  Scenario: Verify User can edit an Address added on account
+    When User click on Account option
+    And User click on edit address option
+    And user fill new address form with below information
+      | country | fullName | phoneNumber | StreetAddress | apt   | city  | state | zipcode |
+    And User click update Your Address button
+    Then a message should be displayed ‘Address Updated Successfully’
+
+  @RemoveAddress
+  Scenario: Verify User can remove Address from Account
+    When User click on Account option
+    And User click on remove option of Address section
+    Then Address details should be removed
 
   @AddPayementMethod
   Scenario: Verify User can add a payment method

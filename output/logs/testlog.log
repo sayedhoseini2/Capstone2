@@ -287,3 +287,50 @@
 2023-03-05 12:17:04,965 - logger_File -INFO - user added new addss information provided in data table
 2023-03-05 12:17:05,202 - logger_File -INFO - user clicked on add address button
 2023-03-05 12:17:06,014 - logger_File -INFO - Address Added Successfully
+2023-03-05 15:19:30,695 - logger_File -INFO - user is on retail website
+2023-03-05 15:19:30,705 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:19:31,011 - logger_File -INFO - User clicked on Sign in Option
+2023-03-05 15:19:31,543 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:19:31,685 - logger_File -INFO - user clicked on login button
+2023-03-05 15:19:32,406 - logger_File -INFO - user clicked on Account option
+2023-03-05 15:19:32,728 - logger_File -INFO - tek.sdet.framework.pages.POMFactory@dbddbe3
+2023-03-05 15:21:18,242 - logger_File -INFO - user added new addss information provided in data table
+2023-03-05 15:21:18,401 - logger_File -INFO - user clicked on update address button
+2023-03-05 15:23:46,920 - logger_File -INFO - user is on retail website
+2023-03-05 15:23:46,932 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:23:47,197 - logger_File -INFO - User clicked on Sign in Option
+2023-03-05 15:23:47,748 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:23:47,900 - logger_File -INFO - user clicked on login button
+2023-03-05 15:23:48,643 - logger_File -INFO - user clicked on Account option
+2023-03-05 15:23:48,967 - logger_File -INFO - tek.sdet.framework.pages.POMFactory@1e5eb20a
+2023-03-05 15:25:32,163 - logger_File -INFO - user added new addss information provided in data table
+2023-03-05 15:25:32,361 - logger_File -INFO - user clicked on update address button
+2023-03-05 15:25:33,171 - logger_File -INFO - Address updated successfully
+2023-03-05 15:26:27,513 - logger_File -INFO - user is on retail website
+2023-03-05 15:26:27,521 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:26:27,769 - logger_File -INFO - User clicked on Sign in Option
+2023-03-05 15:26:28,338 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:26:28,485 - logger_File -INFO - user clicked on login button
+2023-03-05 15:26:29,190 - logger_File -INFO - user clicked on Account option
+2023-03-05 15:26:29,576 - logger_File -INFO - user clicked om edit address option
+2023-03-05 15:28:12,815 - logger_File -INFO - user added new addss information provided in data table
+2023-03-05 15:28:13,016 - logger_File -INFO - user clicked on update address button
+2023-03-05 15:28:13,815 - logger_File -INFO - Address updated successfully
+2023-03-05 15:33:18,453 - logger_File -INFO - user is on retail website
+2023-03-05 15:33:18,463 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:33:18,724 - logger_File -INFO - User clicked on Sign in Option
+2023-03-05 15:33:19,279 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:33:19,421 - logger_File -INFO - user clicked on login button
+2023-03-05 15:33:20,234 - logger_File -INFO - user clicked on Account option
+2023-03-05 15:33:20,540 - logger_File -INFO - user clicked on address option
+2023-03-05 15:34:22,661 - logger_File -INFO - user added new addss information provided in data table
+2023-03-05 15:34:22,851 - logger_File -INFO - user clicked on add address button
+2023-03-05 15:34:23,712 - logger_File -INFO - Address Added Successfully
+2023-03-05 15:37:09,167 - logger_File -INFO - user is on retail website
+2023-03-05 15:37:09,178 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:37:09,460 - logger_File -INFO - User clicked on Sign in Option
+2023-03-05 15:37:10,004 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:37:10,156 - logger_File -INFO - user clicked on login button
+2023-03-05 15:37:11,021 - logger_File -INFO - user clicked on Account option
+2023-03-05 15:37:11,232 - logger_File -INFO - user clicked on remove address button
+2023-03-05 15:37:11,235 - logger_File -INFO - address removed

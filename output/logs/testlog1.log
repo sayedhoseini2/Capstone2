@@ -801,3 +801,50 @@
 2023-03-05 12:17:04,965 [main] INFO logger_File - user added new addss information provided in data table
 2023-03-05 12:17:05,202 [main] INFO logger_File - user clicked on add address button
 2023-03-05 12:17:06,014 [main] INFO logger_File - Address Added Successfully
+2023-03-05 15:19:30,695 [main] INFO logger_File - user is on retail website
+2023-03-05 15:19:30,705 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:19:31,011 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-05 15:19:31,543 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:19:31,685 [main] INFO logger_File - user clicked on login button
+2023-03-05 15:19:32,406 [main] INFO logger_File - user clicked on Account option
+2023-03-05 15:19:32,728 [main] INFO logger_File - tek.sdet.framework.pages.POMFactory@dbddbe3
+2023-03-05 15:21:18,242 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-05 15:21:18,401 [main] INFO logger_File - user clicked on update address button
+2023-03-05 15:23:46,920 [main] INFO logger_File - user is on retail website
+2023-03-05 15:23:46,932 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:23:47,197 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-05 15:23:47,748 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:23:47,900 [main] INFO logger_File - user clicked on login button
+2023-03-05 15:23:48,643 [main] INFO logger_File - user clicked on Account option
+2023-03-05 15:23:48,967 [main] INFO logger_File - tek.sdet.framework.pages.POMFactory@1e5eb20a
+2023-03-05 15:25:32,163 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-05 15:25:32,361 [main] INFO logger_File - user clicked on update address button
+2023-03-05 15:25:33,171 [main] INFO logger_File - Address updated successfully
+2023-03-05 15:26:27,513 [main] INFO logger_File - user is on retail website
+2023-03-05 15:26:27,521 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:26:27,769 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-05 15:26:28,338 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:26:28,485 [main] INFO logger_File - user clicked on login button
+2023-03-05 15:26:29,190 [main] INFO logger_File - user clicked on Account option
+2023-03-05 15:26:29,576 [main] INFO logger_File - user clicked om edit address option
+2023-03-05 15:28:12,815 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-05 15:28:13,016 [main] INFO logger_File - user clicked on update address button
+2023-03-05 15:28:13,815 [main] INFO logger_File - Address updated successfully
+2023-03-05 15:33:18,453 [main] INFO logger_File - user is on retail website
+2023-03-05 15:33:18,463 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:33:18,724 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-05 15:33:19,279 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:33:19,421 [main] INFO logger_File - user clicked on login button
+2023-03-05 15:33:20,234 [main] INFO logger_File - user clicked on Account option
+2023-03-05 15:33:20,540 [main] INFO logger_File - user clicked on address option
+2023-03-05 15:34:22,661 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-05 15:34:22,851 [main] INFO logger_File - user clicked on add address button
+2023-03-05 15:34:23,712 [main] INFO logger_File - Address Added Successfully
+2023-03-05 15:37:09,167 [main] INFO logger_File - user is on retail website
+2023-03-05 15:37:09,178 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 15:37:09,460 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-05 15:37:10,004 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 15:37:10,156 [main] INFO logger_File - user clicked on login button
+2023-03-05 15:37:11,021 [main] INFO logger_File - user clicked on Account option
+2023-03-05 15:37:11,232 [main] INFO logger_File - user clicked on remove address button
+2023-03-05 15:37:11,235 [main] INFO logger_File - address removed
