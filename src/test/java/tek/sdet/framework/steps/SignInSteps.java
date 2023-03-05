@@ -57,8 +57,9 @@ public class SignInSteps extends CommonUtility {
 	sendText(factory.signInPage().signUpEmailField,DataGeneratorUtility.data(signUpInformation.get(0).get("email")));
 	sendText(factory.signInPage().signUpPasswordField, DataGeneratorUtility.data(signUpInformation.get(0).get("password")));
 	sendText(factory.signInPage().signUpConfirmPassField,DataGeneratorUtility.data(signUpInformation.get(0).get("confirmPassword")));
-	logger.info("user filled the signUp information form");
-	
+	logger.info("user filled the signUp information form" +"with username of "+ DataGeneratorUtility.data(signUpInformation.get(0).get("name")));
+	logger.info("user email was"+ DataGeneratorUtility.data(signUpInformation.get(0).get("email")));
+	logger.info("user password was"+ DataGeneratorUtility.data(signUpInformation.get(0).get("password")));
 
 	}
 	@When("User click on SignUp button")
@@ -69,7 +70,9 @@ public class SignInSteps extends CommonUtility {
 	}
 	@Then("User should be logged into account page")
 	public void userShouldBeLoggedIntoAccountPage() {
-		//Assert.assertTrue(isElementDisplayed(factory.accountPage().logoutBtn));
+		waitTillPresence(factory.accountPage().profileNameInputField);
+		Assert.assertTrue(isElementDisplayed(factory.accountPage().profileNameInputField));
 		logger.info("user is login into account page");
+		
 	}
 }

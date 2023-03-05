@@ -3,6 +3,7 @@ package tek.sdet.framework.utilities;
 import net.datafaker.Faker;
 
 public class DataGeneratorUtility {
+	
 	public static void main(String []args) {
 		System.out.println(data("firstName"));
 		System.out.println(data("lastName"));
@@ -12,6 +13,14 @@ public class DataGeneratorUtility {
 		System.out.println(data("city"));
 		System.out.println(data("zipCode"));
 		System.out.println(data("state"));
+		
+		System.out.println(data("cardNumber"));
+		System.out.println(data("nameOnCard"));
+		System.out.println(data("expirationMonth"));
+		System.out.println(data("expirationYear"));
+		System.out.println(data("securityCode"));
+		
+		
 	}
 
 	public static String data(String input) {
@@ -20,6 +29,7 @@ public class DataGeneratorUtility {
 		
 		Faker faker = new Faker();
 		String outPut ="";
+		int outPut2;
 		if (input.equals("firstName")) {
 			outPut=faker.name().firstName();
 		}
@@ -53,6 +63,32 @@ public class DataGeneratorUtility {
       
         }else if (input.equals("country")) {
                 outPut = "United States";
+                
+        } else if(input.equals("previousPassword")) {
+        	outPut="Adamsho1@";       
+                
+        } else if(input.equals("newPassword")) {
+        	outPut=faker.expression("#{letterify 'Test@1?????'}");
+        	
+        } else if(input.equals("cardNumber")) {
+        	outPut=faker.number().digits(16);
+        } else if(input.equals("nameOnCard")) {
+        	outPut=faker.name().fullName();
+        	
+        } 
+        else if(input.equals("expirationMonth")) {
+        	//outPut=faker.number().digit();
+        	outPut="5";
+        } 
+        else if(input.equals("expirationYear")) {
+        	//outPut=faker.date().birthday(2031, 2042,"year");
+		outPut="2023";  
+		
+        } else if(input.equals("securityCode")) {
+        	outPut=faker.number().digits(3);       	
+        			
+        	
+
         } else 
 		//outPut=faker.expression(outPut);
 		// add any other information based on form that needed to be filled
@@ -60,6 +96,7 @@ public class DataGeneratorUtility {
 	
 		return outPut;
 		return outPut;
+		
 	
 	}
 
