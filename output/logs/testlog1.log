@@ -848,3 +848,196 @@
 2023-03-05 15:37:11,021 [main] INFO logger_File - user clicked on Account option
 2023-03-05 15:37:11,232 [main] INFO logger_File - user clicked on remove address button
 2023-03-05 15:37:11,235 [main] INFO logger_File - address removed
+2023-03-05 17:51:59,485 [main] INFO logger_File - user is on retail website
+2023-03-05 17:51:59,494 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 17:51:59,744 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-05 17:52:00,344 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 17:52:00,531 [main] INFO logger_File - user clicked on login button
+2023-03-05 17:52:01,295 [main] INFO logger_File - user clicked on Account option
+2023-03-05 17:52:01,498 [main] INFO logger_File - user clicked on add a payment method
+2023-03-05 17:52:02,803 [main] INFO logger_File - user clicked on add card button
+2023-03-05 17:52:03,662 [main] INFO logger_File - Payment Method Added Successfully
+2023-03-05 17:52:37,978 [main] INFO logger_File - user is on retail website
+2023-03-05 17:52:37,986 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 17:52:38,296 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-05 17:52:38,905 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-05 17:52:39,097 [main] INFO logger_File - user clicked on login button
+2023-03-05 17:52:39,964 [main] INFO logger_File - user clicked on Account option
+2023-03-05 17:52:40,270 [main] INFO logger_File - user clicked on add a payment method
+2023-03-05 17:52:41,721 [main] INFO logger_File - user clicked on add card button
+2023-03-05 17:52:42,571 [main] INFO logger_File - Payment Method Added Successfully
+2023-03-05 17:57:12,961 [main] INFO logger_File - user is on retail website
+2023-03-05 17:57:12,972 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 17:57:13,434 [main] INFO logger_File - user searched for product pokemon
+2023-03-05 17:57:13,637 [main] INFO logger_File - the Product is displayed on home page
+2023-03-05 19:08:08,588 [main] INFO logger_File - user is on retail website
+2023-03-05 19:08:08,596 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:08:09,161 [main] INFO logger_File - user searched for product pokemon
+2023-03-05 19:27:44,094 [main] INFO logger_File - user is on retail website
+2023-03-05 19:27:44,101 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:27:44,316 [main] INFO logger_File - user clicked on All section
+2023-03-05 19:27:44,528 [main] INFO logger_File - Electronics is equal to Electronics
+2023-03-05 19:27:44,689 [main] INFO logger_File - Computers is equal to Computers
+2023-03-05 19:27:44,799 [main] INFO logger_File - Smart Home is equal to Smart Home
+2023-03-05 19:27:44,880 [main] INFO logger_File - Sports is equal to Sports
+2023-03-05 19:27:44,965 [main] INFO logger_File - Automative is equal to Automative
+2023-03-05 19:28:30,847 [main] INFO logger_File - user is on retail website
+2023-03-05 19:28:30,854 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:28:31,010 [main] INFO logger_File - user clicked on All section
+2023-03-05 19:28:31,111 [main] INFO logger_File - Electronics is equal to Electronics
+2023-03-05 19:28:31,240 [main] INFO logger_File - Computers is equal to Computers
+2023-03-05 19:28:31,359 [main] INFO logger_File - Smart Home is equal to Smart Home
+2023-03-05 19:28:31,477 [main] INFO logger_File - Sports is equal to Sports
+2023-03-05 19:28:31,547 [main] INFO logger_File - Automative is equal to Automative
+2023-03-05 19:28:53,442 [main] INFO logger_File - user is on retail website
+2023-03-05 19:28:53,451 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:28:53,643 [main] INFO logger_File - user clicked on All section
+2023-03-05 19:28:53,746 [main] INFO logger_File - Electronics is equal to Electronics
+2023-03-05 19:28:53,867 [main] INFO logger_File - Computers is equal to Computers
+2023-03-05 19:28:54,016 [main] INFO logger_File - Smart Home is equal to Smart Home
+2023-03-05 19:28:54,142 [main] INFO logger_File - Sports is equal to Sports
+2023-03-05 19:28:54,221 [main] INFO logger_File - Automative is equal to Automative
+2023-03-05 19:30:23,753 [main] INFO logger_File - user is on retail website
+2023-03-05 19:30:23,761 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:30:23,922 [main] INFO logger_File - user clicked on All section
+2023-03-05 19:30:24,323 [main] INFO logger_File - TV & Video is present 
+2023-03-05 19:30:24,483 [main] INFO logger_File - Video Games is present 
+2023-03-05 19:30:30,245 [main] INFO logger_File - user is on retail website
+2023-03-05 19:30:30,248 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:30:30,407 [main] INFO logger_File - user clicked on All section
+2023-03-05 19:30:30,790 [main] INFO logger_File - Accessories is present 
+2023-03-05 19:30:30,900 [main] INFO logger_File - Networking is present 
+2023-03-05 19:30:36,248 [main] INFO logger_File - user is on retail website
+2023-03-05 19:30:36,251 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:30:36,456 [main] INFO logger_File - user clicked on All section
+2023-03-05 19:30:36,851 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-05 19:30:36,998 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-05 19:30:42,562 [main] INFO logger_File - user is on retail website
+2023-03-05 19:30:42,565 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:30:42,741 [main] INFO logger_File - user clicked on All section
+2023-03-05 19:30:43,217 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-05 19:30:43,334 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-05 19:30:48,851 [main] INFO logger_File - user is on retail website
+2023-03-05 19:30:48,853 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-05 19:30:49,028 [main] INFO logger_File - user clicked on All section
+2023-03-05 19:30:49,558 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-05 19:30:49,680 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-09 16:31:48,234 [main] INFO logger_File - user is on retail website
+2023-03-09 16:31:48,243 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 16:31:48,728 [main] INFO logger_File - user clicked on All section
+2023-03-09 16:31:49,232 [main] INFO logger_File - TV & Video is present 
+2023-03-09 16:31:49,434 [main] INFO logger_File - Video Games is present 
+2023-03-09 16:32:03,436 [main] INFO logger_File - user is on retail website
+2023-03-09 16:32:03,441 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 16:32:05,087 [main] INFO logger_File - user clicked on All section
+2023-03-09 16:32:05,843 [main] INFO logger_File - Accessories is present 
+2023-03-09 16:32:05,999 [main] INFO logger_File - Networking is present 
+2023-03-09 16:32:21,203 [main] INFO logger_File - user is on retail website
+2023-03-09 16:32:21,207 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 16:32:21,669 [main] INFO logger_File - user clicked on All section
+2023-03-09 16:32:22,142 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-09 16:32:22,340 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-09 16:32:35,363 [main] INFO logger_File - user is on retail website
+2023-03-09 16:32:35,369 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 16:32:36,118 [main] INFO logger_File - user clicked on All section
+2023-03-09 16:32:36,617 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-09 16:32:36,851 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-09 16:32:49,580 [main] INFO logger_File - user is on retail website
+2023-03-09 16:32:49,583 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-09 16:32:50,059 [main] INFO logger_File - user clicked on All section
+2023-03-09 16:32:50,723 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-09 16:32:50,891 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-10 18:55:09,138 [main] INFO logger_File - user is on retail website
+2023-03-10 18:55:09,155 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 18:55:09,748 [main] INFO logger_File - user clicked on All section
+2023-03-10 18:55:10,084 [main] INFO logger_File - actual is equal to expected
+2023-03-10 20:18:26,028 [main] INFO logger_File - user is on retail website
+2023-03-10 20:18:26,043 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 20:18:26,872 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 20:18:27,820 [main] INFO logger_File - user entered email EmailValue and password PasswordValue
+2023-03-10 20:20:15,376 [main] INFO logger_File - user is on retail website
+2023-03-10 20:20:15,390 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 20:20:16,195 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 20:20:16,994 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 20:20:17,219 [main] INFO logger_File - user clicked on login button
+2023-03-10 20:26:19,730 [main] INFO logger_File - user is on retail website
+2023-03-10 20:26:19,751 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 20:26:20,716 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 20:26:21,561 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 20:26:21,812 [main] INFO logger_File - user clicked on login button
+2023-03-10 20:31:23,989 [main] INFO logger_File - user is on retail website
+2023-03-10 20:31:24,002 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 20:31:24,732 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 20:31:25,594 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 20:31:25,824 [main] INFO logger_File - user clicked on login button
+2023-03-10 20:31:27,099 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-10 20:31:28,056 [main] INFO logger_File - user searched for an item
+2023-03-10 20:31:28,276 [main] INFO logger_File - user searched for an item
+2023-03-10 20:36:32,246 [main] INFO logger_File - user is on retail website
+2023-03-10 20:36:32,261 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 20:36:33,122 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 20:36:33,988 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 20:36:34,243 [main] INFO logger_File - user clicked on login button
+2023-03-10 20:36:35,959 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-10 20:36:37,044 [main] INFO logger_File - user searched for an item
+2023-03-10 20:36:37,264 [main] INFO logger_File - user searched for an item
+2023-03-10 20:38:31,859 [main] INFO logger_File - user is on retail website
+2023-03-10 20:38:31,875 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 20:38:32,420 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 20:38:33,250 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 20:38:33,488 [main] INFO logger_File - user clicked on login button
+2023-03-10 20:38:34,914 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-10 20:38:35,833 [main] INFO logger_File - user searched for an item
+2023-03-10 20:38:36,060 [main] INFO logger_File - user searched for an item
+2023-03-10 20:45:38,285 [main] INFO logger_File - user is on retail website
+2023-03-10 20:45:38,299 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 20:45:39,250 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 20:45:40,333 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 20:45:40,721 [main] INFO logger_File - user clicked on login button
+2023-03-10 20:45:42,268 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-10 20:45:43,254 [main] INFO logger_File - user searched for an item
+2023-03-10 20:45:43,464 [main] INFO logger_File - user searched for an item
+2023-03-10 20:45:43,751 [main] INFO logger_File - user select an item
+2023-03-10 21:20:07,990 [main] INFO logger_File - user is on retail website
+2023-03-10 21:20:07,999 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 21:20:08,251 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 21:20:08,917 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 21:20:09,122 [main] INFO logger_File - user clicked on login button
+2023-03-10 21:20:10,126 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-10 21:20:10,493 [main] INFO logger_File - user searched for an item
+2023-03-10 21:20:10,804 [main] INFO logger_File - user searched for an item
+2023-03-10 21:20:10,948 [main] INFO logger_File - user select an item
+2023-03-10 21:20:11,320 [main] INFO logger_File - user select 2 items
+2023-03-10 21:23:44,916 [main] INFO logger_File - user is on retail website
+2023-03-10 21:23:44,924 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 21:23:45,237 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 21:23:45,788 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 21:23:45,936 [main] INFO logger_File - user clicked on login button
+2023-03-10 21:23:46,940 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-10 21:23:47,590 [main] INFO logger_File - user searched for an item
+2023-03-10 21:23:47,701 [main] INFO logger_File - user searched for an item
+2023-03-10 21:23:47,848 [main] INFO logger_File - user select an item
+2023-03-10 21:23:48,266 [main] INFO logger_File - user select 2 items
+2023-03-10 21:23:48,463 [main] INFO logger_File - user add the items to the card
+2023-03-10 21:23:48,595 [main] INFO logger_File - user chnaged the number of items to 3 items
+2023-03-10 21:26:24,625 [main] INFO logger_File - user is on retail website
+2023-03-10 21:26:24,636 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 21:26:24,942 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 21:26:25,644 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 21:26:25,815 [main] INFO logger_File - user clicked on login button
+2023-03-10 21:26:26,852 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-10 21:26:27,237 [main] INFO logger_File - user searched for an item
+2023-03-10 21:26:27,365 [main] INFO logger_File - user searched for an item
+2023-03-10 21:26:27,595 [main] INFO logger_File - user select an item
+2023-03-10 21:30:09,313 [main] INFO logger_File - user is on retail website
+2023-03-10 21:30:09,327 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-10 21:30:09,603 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-10 21:30:10,110 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-10 21:30:10,333 [main] INFO logger_File - user clicked on login button
+2023-03-10 21:30:11,548 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-10 21:30:12,171 [main] INFO logger_File - user searched for an item
+2023-03-10 21:30:12,296 [main] INFO logger_File - user searched for an item
+2023-03-10 21:30:12,444 [main] INFO logger_File - user select an item
+2023-03-10 21:30:12,869 [main] INFO logger_File - user select 2 items
+2023-03-10 21:30:13,040 [main] INFO logger_File - user add the items to the card
+2023-03-10 21:30:16,173 [main] INFO logger_File - user chnaged the number of items to 3 items

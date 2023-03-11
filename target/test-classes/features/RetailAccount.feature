@@ -47,7 +47,7 @@ Feature: Retail Application Account Feature
     And User click on remove option of Address section
     Then Address details should be removed
 
-  @AddPayementMethod
+  @AddPayement
   Scenario: Verify User can add a payment method
     When User click on Account option
     And User click on Add a payment method link

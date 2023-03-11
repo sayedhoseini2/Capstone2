@@ -69,6 +69,23 @@ public class RetailHomePage extends BaseSetup {
 	public List<WebElement> sideBarOptionElements;
 	
 	
+	@FindBy(xpath="/span[contains(text(),'Smart Home Lightning')]")
+	public WebElement SmartHomeLightning;
+	
+	@FindBy(xpath="//span[contains(text(),'Plugs and Outlets')]")
+	public WebElement PlugsandOutlets;
+
+	@FindBy(xpath="//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/img[1]")
+	public WebElement smartLedBulb;
+
+	@FindBy(xpath="//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/select[1]")
+	public WebElement quantityDropDown;
+
+	@FindBy(xpath="//span[contains(text(),'Add to Cart')]")
+	public WebElement addToCart;
+	
+    @FindBy(xpath="//p[contains(text(),'Wemo Mini Smart Plug')]")
+	public WebElement miniSmartPlug;
 	
 	
 
