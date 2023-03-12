@@ -527,3 +527,192 @@
 2023-03-10 21:30:12,869 - logger_File -INFO - user select 2 items
 2023-03-10 21:30:13,040 - logger_File -INFO - user add the items to the card
 2023-03-10 21:30:16,173 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 16:11:37,346 - logger_File -INFO - user is on retail website
+2023-03-11 16:11:37,356 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 16:11:37,592 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 16:11:38,032 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 16:11:38,167 - logger_File -INFO - user clicked on login button
+2023-03-11 16:21:45,164 - logger_File -INFO - user is on retail website
+2023-03-11 16:21:45,172 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 16:21:45,438 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 16:21:45,848 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 16:21:45,979 - logger_File -INFO - user clicked on login button
+2023-03-11 16:21:46,913 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 16:21:47,465 - logger_File -INFO - user searched for an item
+2023-03-11 16:21:47,623 - logger_File -INFO - user searched for an item
+2023-03-11 16:21:47,838 - logger_File -INFO - user select an item
+2023-03-11 16:21:48,235 - logger_File -INFO - user select 2 items
+2023-03-11 16:21:48,413 - logger_File -INFO - user add the items to the card
+2023-03-11 16:21:51,459 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 16:42:52,631 - logger_File -INFO - user is on retail website
+2023-03-11 16:42:52,639 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 16:42:52,861 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 16:42:53,346 - logger_File -INFO - user entered email smaimsah@gmail.com and password Adamsho1@
+2023-03-11 16:42:53,504 - logger_File -INFO - user clicked on login button
+2023-03-11 16:44:08,948 - logger_File -INFO - user is on retail website
+2023-03-11 16:44:08,985 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 16:44:09,377 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 16:44:09,982 - logger_File -INFO - user entered email smaimsah@gmail.com and password Adamsho1@
+2023-03-11 16:44:10,266 - logger_File -INFO - user clicked on login button
+2023-03-11 16:46:47,368 - logger_File -INFO - user is on retail website
+2023-03-11 16:46:47,377 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 16:46:47,612 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 16:46:48,008 - logger_File -INFO - user entered email smaimsah@gmail.com and password Adamsho1@
+2023-03-11 16:46:48,132 - logger_File -INFO - user clicked on login button
+2023-03-11 16:48:06,399 - logger_File -INFO - user is on retail website
+2023-03-11 16:48:06,407 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 16:48:06,676 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 16:48:07,201 - logger_File -INFO - user entered email smaimsah@gmail.com and password Adamsho1@
+2023-03-11 16:48:07,367 - logger_File -INFO - user clicked on login button
+2023-03-11 16:51:48,945 - logger_File -INFO - user is on retail website
+2023-03-11 16:51:48,953 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 16:51:49,189 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 16:51:49,746 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 16:51:49,921 - logger_File -INFO - user clicked on login button
+2023-03-11 16:51:50,878 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 16:51:51,487 - logger_File -INFO - user searched for an item
+2023-03-11 16:51:51,593 - logger_File -INFO - user searched for an item
+2023-03-11 16:51:51,755 - logger_File -INFO - user select an item
+2023-03-11 16:51:52,144 - logger_File -INFO - user select 2 items
+2023-03-11 16:51:52,319 - logger_File -INFO - user add the items to the card
+2023-03-11 16:51:55,587 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 16:51:55,778 - logger_File -INFO - user clicked on shopping caard
+2023-03-11 16:51:56,099 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-11 16:57:26,660 - logger_File -INFO - user is on retail website
+2023-03-11 16:57:26,668 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 16:57:27,085 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 16:57:27,781 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 16:57:27,943 - logger_File -INFO - user clicked on login button
+2023-03-11 16:57:28,840 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 16:57:29,426 - logger_File -INFO - user searched for an item
+2023-03-11 16:57:29,536 - logger_File -INFO - user searched for an item
+2023-03-11 16:57:29,708 - logger_File -INFO - user select an item
+2023-03-11 16:57:30,161 - logger_File -INFO - user select 2 items
+2023-03-11 16:57:30,317 - logger_File -INFO - user add the items to the card
+2023-03-11 16:57:33,358 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 16:57:33,640 - logger_File -INFO - user clicked on shopping caard
+2023-03-11 16:57:33,954 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-11 16:57:34,138 - logger_File -INFO - user clicked on add address button
+2023-03-11 17:03:02,124 - logger_File -INFO - user is on retail website
+2023-03-11 17:03:02,134 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 17:03:02,454 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 17:03:03,116 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 17:03:03,301 - logger_File -INFO - user clicked on login button
+2023-03-11 17:03:04,678 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 17:03:05,094 - logger_File -INFO - user searched for an item
+2023-03-11 17:03:05,428 - logger_File -INFO - user searched for an item
+2023-03-11 17:03:05,597 - logger_File -INFO - user select an item
+2023-03-11 17:19:20,798 - logger_File -INFO - user is on retail website
+2023-03-11 17:19:20,806 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 17:19:21,035 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 17:19:21,673 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 17:19:21,844 - logger_File -INFO - user clicked on login button
+2023-03-11 17:19:22,837 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 17:19:23,183 - logger_File -INFO - user searched for an item
+2023-03-11 17:19:23,479 - logger_File -INFO - user searched for an item
+2023-03-11 17:19:23,605 - logger_File -INFO - user select an item
+2023-03-11 17:19:24,056 - logger_File -INFO - user select 2 items
+2023-03-11 17:19:24,231 - logger_File -INFO - user add the items to the card
+2023-03-11 17:19:27,282 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 17:19:27,533 - logger_File -INFO - user clicked on shopping caard
+2023-03-11 17:19:27,801 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-11 17:19:28,046 - logger_File -INFO - user clicked on add address button
+2023-03-11 17:20:32,073 - logger_File -INFO - user added new addss information provided in data table
+2023-03-11 17:20:32,634 - logger_File -INFO - user clicked on add your address
+2023-03-11 17:21:23,058 - logger_File -INFO - user is on retail website
+2023-03-11 17:21:23,066 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 17:21:23,339 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 17:21:23,942 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 17:21:24,096 - logger_File -INFO - user clicked on login button
+2023-03-11 17:21:25,039 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 17:21:25,905 - logger_File -INFO - user searched for an item
+2023-03-11 17:21:26,020 - logger_File -INFO - user searched for an item
+2023-03-11 17:21:26,182 - logger_File -INFO - user select an item
+2023-03-11 17:21:29,174 - logger_File -INFO - user select 2 items
+2023-03-11 17:21:29,331 - logger_File -INFO - user add the items to the card
+2023-03-11 17:21:32,368 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 17:21:32,546 - logger_File -INFO - user clicked on shopping caard
+2023-03-11 17:21:32,769 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-11 17:21:32,959 - logger_File -INFO - user clicked on add address button
+2023-03-11 17:22:34,914 - logger_File -INFO - user added new addss information provided in data table
+2023-03-11 17:22:35,042 - logger_File -INFO - user clicked on add your address
+2023-03-11 17:23:14,340 - logger_File -INFO - user is on retail website
+2023-03-11 17:23:14,348 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 17:23:14,559 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 17:23:14,956 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 17:23:15,093 - logger_File -INFO - user clicked on login button
+2023-03-11 17:23:16,357 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 17:23:16,861 - logger_File -INFO - user searched for an item
+2023-03-11 17:23:17,139 - logger_File -INFO - user searched for an item
+2023-03-11 17:23:17,349 - logger_File -INFO - user select an item
+2023-03-11 17:23:17,749 - logger_File -INFO - user select 2 items
+2023-03-11 17:23:17,919 - logger_File -INFO - user add the items to the card
+2023-03-11 17:23:20,962 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 17:23:21,127 - logger_File -INFO - user clicked on shopping caard
+2023-03-11 17:23:21,352 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-11 17:23:21,528 - logger_File -INFO - user clicked on add address button
+2023-03-11 17:24:23,586 - logger_File -INFO - user added new addss information provided in data table
+2023-03-11 17:24:23,747 - logger_File -INFO - user clicked on add your address
+2023-03-11 17:24:24,338 - logger_File -INFO - user clicked on add payement method
+2023-03-11 17:26:10,094 - logger_File -INFO - user is on retail website
+2023-03-11 17:26:10,103 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 17:26:10,440 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 17:26:10,948 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 17:26:11,122 - logger_File -INFO - user clicked on login button
+2023-03-11 17:26:12,170 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 17:26:12,576 - logger_File -INFO - user searched for an item
+2023-03-11 17:26:12,816 - logger_File -INFO - user searched for an item
+2023-03-11 17:26:12,947 - logger_File -INFO - user select an item
+2023-03-11 17:26:13,378 - logger_File -INFO - user select 2 items
+2023-03-11 17:26:13,555 - logger_File -INFO - user add the items to the card
+2023-03-11 17:26:16,595 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 17:26:16,754 - logger_File -INFO - user clicked on shopping caard
+2023-03-11 17:26:16,954 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-11 17:26:17,128 - logger_File -INFO - user clicked on add address button
+2023-03-11 17:27:19,306 - logger_File -INFO - user added new addss information provided in data table
+2023-03-11 17:27:19,455 - logger_File -INFO - user clicked on add your address
+2023-03-11 17:27:19,711 - logger_File -INFO - user clicked on add payement method
+2023-03-11 17:27:20,712 - logger_File -INFO - user clicked on add card button
+2023-03-11 17:27:21,005 - logger_File -INFO - user clicked on place order button
+2023-03-11 17:33:17,427 - logger_File -INFO - user is on retail website
+2023-03-11 17:33:17,436 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 17:33:17,776 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 17:33:18,356 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 17:33:18,501 - logger_File -INFO - user clicked on login button
+2023-03-11 17:33:19,391 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 17:33:19,779 - logger_File -INFO - user searched for an item
+2023-03-11 17:33:20,092 - logger_File -INFO - user searched for an item
+2023-03-11 17:33:20,230 - logger_File -INFO - user select an item
+2023-03-11 17:33:20,606 - logger_File -INFO - user select 2 items
+2023-03-11 17:33:20,821 - logger_File -INFO - user add the items to the card
+2023-03-11 17:33:24,095 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 17:33:24,256 - logger_File -INFO - user clicked on shopping caard
+2023-03-11 17:33:24,471 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-11 17:33:24,635 - logger_File -INFO - user clicked on add address button
+2023-03-11 17:34:26,822 - logger_File -INFO - user added new addss information provided in data table
+2023-03-11 17:34:26,996 - logger_File -INFO - user clicked on add your address
+2023-03-11 17:34:27,277 - logger_File -INFO - user clicked on add payement method
+2023-03-11 17:34:28,434 - logger_File -INFO - user clicked on add card button
+2023-03-11 17:34:28,701 - logger_File -INFO - user clicked on place order button
+2023-03-11 17:34:29,767 - logger_File -INFO - order placed successfully
+2023-03-11 17:36:42,109 - logger_File -INFO - user is on retail website
+2023-03-11 17:36:42,119 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 17:36:42,490 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 17:36:43,201 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 17:36:43,376 - logger_File -INFO - user clicked on login button
+2023-03-11 17:36:44,494 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-11 17:36:44,833 - logger_File -INFO - user searched for an item
+2023-03-11 17:36:45,115 - logger_File -INFO - user searched for an item
+2023-03-11 17:36:45,239 - logger_File -INFO - user select an item
+2023-03-11 17:36:45,643 - logger_File -INFO - user select 2 items
+2023-03-11 17:36:45,793 - logger_File -INFO - user add the items to the card
+2023-03-11 17:36:49,116 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-11 17:36:49,307 - logger_File -INFO - user clicked on shopping caard
+2023-03-11 17:36:49,548 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-11 17:36:49,734 - logger_File -INFO - user clicked on add address button
+2023-03-11 17:37:51,839 - logger_File -INFO - user added new addss information provided in data table
+2023-03-11 17:37:51,982 - logger_File -INFO - user clicked on add your address
+2023-03-11 17:37:52,246 - logger_File -INFO - user clicked on add payement method
+2023-03-11 17:37:53,237 - logger_File -INFO - user clicked on add card button
+2023-03-11 17:37:53,797 - logger_File -INFO - user clicked on place order button
+2023-03-11 17:37:55,559 - logger_File -INFO - order placed successfully

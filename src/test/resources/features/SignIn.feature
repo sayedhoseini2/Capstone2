@@ -2,7 +2,7 @@ Feature: SignIn feature
 
   Background: 
     Given User is on retail website
-    When User click on Sign in option
+   When User click on Sign in option
     
 @SignIn
   Scenario: Verify user can sign in into Retail Application

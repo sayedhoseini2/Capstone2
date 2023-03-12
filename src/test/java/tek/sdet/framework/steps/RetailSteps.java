@@ -129,7 +129,6 @@ public class RetailSteps extends CommonUtility {
 	@When("User select quantity ‘{int}’")
 	public void userSelectQuantity(Integer int1)  {
 	    selectByVisibleText(factory.homePage().quantityDropDown, "2");
-	    
 	    logger.info("user select 2 items");
 	}
 	@When("User click add to Cart button")
@@ -139,10 +138,54 @@ public class RetailSteps extends CommonUtility {
 	}
 	@Then("the cart icon quantity should change to ‘{int}’")
 	public void theCartIconQuantityShouldChangeTo(Integer int1) throws InterruptedException {
-		selectByVisibleText(factory.homePage().quantityDropDown, "3");
+		Assert.assertTrue(isElementDisplayed(factory.homePage().cartQuantity));
+		//Assert.assertEquals("2", cartQuantity.getText());
+		//click(factory.homePage().shoppingCard);
+		//Assert.assertTrue(isElementDisplayed(factory.homePage().miniSmartPlug));
 		Thread.sleep(3000);
 	    logger.info("user chnaged the number of items to 3 items");
 	}
+
+	@Then("User click on Cart option")
+	public void userClickOnCartOption() {
+	    click(factory.homePage().shoppingCard);
+	    logger.info("user clicked on shopping caard");
+	}
+	
+	@Then("User click on Proceed to Checkout button")
+	public void userClickOnProceedToCheckoutButton() {
+	    click(factory.homePage().proceedToCheckOut);
+	    logger.info("user clicked on proceed to checkout");
+	}
+	@Then("User click Add a new address link for shipping address")
+	public void userClickAddANewAddressLinkForShippingAddress() {
+		 click(factory.homePage().addAddressBtn);
+		    logger.info("user clicked on add address button");
+	}
+	@Then("User click Add Your Address button")
+	public void userClickAddYourAddressButton() {
+	   click(factory.homePage().addYourAddressBtn);
+	   logger.info("user clicked on add your address");
+	}
+	@Then("User click Add a credit card or Debit Card for Payment method")
+	public void userClickAddACreditCardOrDebitCardForPaymentMethod() {
+	   click(factory.homePage().addPaymentMethod);
+	   logger.info("user clicked on add payement method");
+	}
+	@Then("User click on Place Your Order")
+	public void userClickOnPlaceYourOrder() {
+	    click(factory.homePage().placeOrderBtn);
+	    logger.info("user clicked on place order button");
+	}
+	@Then("a message should be displayed ‘Order Placed, Thanks’")
+	public void aMessageShouldBeDisplayedOrderPlacedThanks() {
+		waitTillPresence(factory.homePage().orderPlacedSuccessfully);
+	    Assert.assertTrue(isElementDisplayed(factory.homePage().orderPlacedSuccessfully));
+	    Assert.assertTrue(isElementDisplayed(factory.homePage().orderPlacedThanks));
+	    logger.info("order placed successfully");
+	}
+
+
 
 
 } 
