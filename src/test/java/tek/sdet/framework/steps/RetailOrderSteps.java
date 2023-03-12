@@ -12,9 +12,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.sdet.framework.pages.POMFactory;
 import tek.sdet.framework.utilities.CommonUtility;
+import tek.sdet.framework.utilities.DataGeneratorUtility;
 
 public class RetailOrderSteps extends CommonUtility{
 	
+	private static final boolean True = false;
 	private POMFactory factory = new POMFactory();
 	
 	@When("User click on Orders section")
@@ -51,10 +53,57 @@ public class RetailOrderSteps extends CommonUtility{
 	@Then("a cancelation message should be displayed ‘Your Order Has Been Cancelled’")
 	public void a_cancelation_message_should_be_displayed_your_order_has_been_cancelled() {
 		//waitTillPresence(factory.orderPage().yourOrderHasBeenCancelled);
-	    Assert.assertTrue(isElementDisplayed(factory.orderPage().yourOrderHasBeenCancelled));;
+	    Assert.assertTrue(isElementDisplayed(factory.orderPage().yourOrderHasBeenCancelled));
 	}
 
-	
-	
+	@When("User click on Return Items button")
+	public void user_click_on_return_items_button() {
+	    click(factory.orderPage().returnBtn);
+	}
+
+	@When("User select the Return Reason ‘Item damaged’")
+	public void user_select_the_return_reason_item_damaged() {
+	    selectByVisibleText(factory.orderPage().cancelReasonInput,"Item damaged");
+	}
+
+	@When("User select the drop off service ‘FedEx’")
+	public void user_select_the_drop_off_service_fed_ex() {
+	    selectByVisibleText(factory.orderPage().dropOffInput, "FedEx" );
+	}
+
+	@When("User click on Return Order button")
+	public void user_click_on_return_order_button() {
+	   click(factory.orderPage().returnOrder);
+	}
+
+	@Then("a cancelation message should be displayed ‘Return was successful’")
+	public void a_cancelation_message_should_be_displayed_return_was_successful() throws InterruptedException {
+		//waitTillPresence(factory.orderPage().returnWasSuccessfull);
+		Thread.sleep(3000);
+	    Assert.assertTrue(isElementDisplayed(factory.orderPage().returnWasSuccessfull));
+	    logger.info("return was successfull");
+	}
+
+	@When("User click on Review button")
+	public void userClickOnReviewButton() {
+	   click(factory.orderPage().reviewBtn);
+	}
+	@When("User write Review headline ‘ headline value’ and ‘review text’")
+	public void userWriteReviewHeadlineHeadlineValueAndReviewText() throws InterruptedException {
+	    sendText(factory.orderPage().headLineInput, "item damged badly");
+	    sendText(factory.orderPage().descriptionInput, DataGeneratorUtility.data("review"));
+	    Thread.sleep(2000);
+	}
+	@When("User click Add your Review button")
+	public void userClickAddYourReviewButton() {
+	    click(factory.orderPage().reviewSubmitBtn);
+	}
+	@Then("a review message should be displayed ‘Your review was added successfully’")
+	public void aReviewMessageShouldBeDisplayedYourReviewWasAddedSuccessfully() {
+		waitTillPresence(factory.orderPage().reviewAddedMessage);
+		Assert.assertTrue(isElementDisplayed(factory.orderPage().reviewAddedMessage));
+	    logger.info("Review Added Successfully");
+	}
+
 
 }

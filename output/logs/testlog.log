@@ -816,3 +816,167 @@
 2023-03-11 18:59:37,370 - logger_File -INFO - user cancelled the order
 2023-03-11 18:59:37,619 - logger_File -INFO - user select Bought Woring Item
 2023-03-11 18:59:37,863 - logger_File -INFO - user cancelled the order
+2023-03-11 19:05:24,846 - logger_File -INFO - user is on retail website
+2023-03-11 19:05:24,854 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:05:25,235 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:05:25,847 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:05:26,035 - logger_File -INFO - user clicked on login button
+2023-03-11 19:05:30,165 - logger_File -INFO - user cicked on order link
+2023-03-11 19:05:30,171 - logger_File -INFO - user clicked on first order on list
+2023-03-11 19:06:17,814 - logger_File -INFO - user is on retail website
+2023-03-11 19:06:17,817 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:06:18,186 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:06:18,724 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:06:18,888 - logger_File -INFO - user clicked on login button
+2023-03-11 19:06:22,693 - logger_File -INFO - user cicked on order link
+2023-03-11 19:06:22,695 - logger_File -INFO - user clicked on first order on list
+2023-03-11 19:23:51,045 - logger_File -INFO - user is on retail website
+2023-03-11 19:23:51,054 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:23:51,346 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:23:51,834 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:23:51,989 - logger_File -INFO - user clicked on login button
+2023-03-11 19:23:55,743 - logger_File -INFO - user cicked on order link
+2023-03-11 19:23:55,747 - logger_File -INFO - user clicked on first order on list
+2023-03-11 19:28:29,773 - logger_File -INFO - user is on retail website
+2023-03-11 19:28:29,781 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:28:30,170 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:28:30,787 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:28:30,979 - logger_File -INFO - user clicked on login button
+2023-03-11 19:28:34,838 - logger_File -INFO - user cicked on order link
+2023-03-11 19:28:34,848 - logger_File -INFO - user clicked on first order on list
+2023-03-11 19:31:43,193 - logger_File -INFO - user is on retail website
+2023-03-11 19:31:43,201 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:31:43,572 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:31:44,175 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:31:44,329 - logger_File -INFO - user clicked on login button
+2023-03-11 19:31:48,091 - logger_File -INFO - user cicked on order link
+2023-03-11 19:31:48,099 - logger_File -INFO - user clicked on first order on list
+2023-03-11 19:32:28,292 - logger_File -INFO - user is on retail website
+2023-03-11 19:32:28,303 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:32:28,581 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:32:29,153 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:32:29,299 - logger_File -INFO - user clicked on login button
+2023-03-11 19:32:33,080 - logger_File -INFO - user cicked on order link
+2023-03-11 19:32:33,090 - logger_File -INFO - user clicked on first order on list
+2023-03-11 19:34:14,317 - logger_File -INFO - user is on retail website
+2023-03-11 19:34:14,325 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:34:14,576 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:34:15,172 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:34:15,407 - logger_File -INFO - user clicked on login button
+2023-03-11 19:34:19,198 - logger_File -INFO - user cicked on order link
+2023-03-11 19:34:19,202 - logger_File -INFO - user clicked on first order on list
+2023-03-11 19:38:02,394 - logger_File -INFO - user is on retail website
+2023-03-11 19:38:02,406 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:38:03,034 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:38:04,133 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:38:04,356 - logger_File -INFO - user clicked on login button
+2023-03-11 19:38:08,420 - logger_File -INFO - user cicked on order link
+2023-03-11 19:38:08,431 - logger_File -INFO - user clicked on first order on list
+2023-03-11 19:38:57,921 - logger_File -INFO - user is on retail website
+2023-03-11 19:38:57,934 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-11 19:38:58,562 - logger_File -INFO - User clicked on Sign in Option
+2023-03-11 19:38:59,517 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-11 19:38:59,789 - logger_File -INFO - user clicked on login button
+2023-03-11 19:39:03,747 - logger_File -INFO - user cicked on order link
+2023-03-11 19:39:03,754 - logger_File -INFO - user clicked on first order on list
+2023-03-12 09:27:59,165 - logger_File -INFO - user is on retail website
+2023-03-12 09:27:59,172 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 09:27:59,417 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 09:27:59,916 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 09:28:00,079 - logger_File -INFO - user clicked on login button
+2023-03-12 09:28:03,799 - logger_File -INFO - user cicked on order link
+2023-03-12 09:28:03,813 - logger_File -INFO - user clicked on first order on list
+2023-03-12 09:28:51,008 - logger_File -INFO - user is on retail website
+2023-03-12 09:28:51,011 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 09:28:51,313 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 09:28:51,735 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 09:28:51,885 - logger_File -INFO - user clicked on login button
+2023-03-12 09:28:55,800 - logger_File -INFO - user cicked on order link
+2023-03-12 09:28:55,803 - logger_File -INFO - user clicked on first order on list
+2023-03-12 09:58:42,981 - logger_File -INFO - user is on retail website
+2023-03-12 09:58:42,987 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 09:58:43,262 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 09:58:43,711 - logger_File -INFO - user entered email EmailValue and password PasswordValue
+2023-03-12 10:09:08,652 - logger_File -INFO - user is on retail website
+2023-03-12 10:09:08,660 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 10:09:08,936 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 10:09:09,402 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 10:09:09,589 - logger_File -INFO - user clicked on login button
+2023-03-12 10:09:13,498 - logger_File -INFO - user cicked on order link
+2023-03-12 10:09:13,503 - logger_File -INFO - user clicked on first order on list
+2023-03-12 10:11:49,655 - logger_File -INFO - user is on retail website
+2023-03-12 10:11:49,667 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 10:11:49,951 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 10:11:50,427 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 10:11:50,582 - logger_File -INFO - user clicked on login button
+2023-03-12 10:11:54,482 - logger_File -INFO - user cicked on order link
+2023-03-12 10:11:54,487 - logger_File -INFO - user clicked on first order on list
+2023-03-12 10:11:56,231 - logger_File -INFO - Review Added Successfully
+2023-03-12 10:13:38,049 - logger_File -INFO - user is on retail website
+2023-03-12 10:13:38,059 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 10:13:38,279 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 10:13:38,710 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 10:13:38,847 - logger_File -INFO - user clicked on login button
+2023-03-12 10:13:43,019 - logger_File -INFO - user cicked on order link
+2023-03-12 10:13:43,025 - logger_File -INFO - user clicked on first order on list
+2023-03-12 10:13:44,923 - logger_File -INFO - Review Added Successfully
+2023-03-12 10:19:04,828 - logger_File -INFO - user is on retail website
+2023-03-12 10:19:04,836 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 10:19:05,253 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 10:19:05,825 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 10:19:05,986 - logger_File -INFO - user clicked on login button
+2023-03-12 10:19:09,573 - logger_File -INFO - user cicked on order link
+2023-03-12 10:19:09,577 - logger_File -INFO - user clicked on first order on list
+2023-03-12 11:09:49,348 - logger_File -INFO - user is on retail website
+2023-03-12 11:09:49,357 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 11:09:49,638 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 11:09:50,121 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 11:09:50,295 - logger_File -INFO - user clicked on login button
+2023-03-12 11:09:54,166 - logger_File -INFO - user cicked on order link
+2023-03-12 11:09:54,172 - logger_File -INFO - user clicked on first order on list
+2023-03-12 11:22:40,432 - logger_File -INFO - user is on retail website
+2023-03-12 11:22:40,443 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 11:22:40,670 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 11:22:41,145 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 11:22:41,288 - logger_File -INFO - user clicked on login button
+2023-03-12 11:22:45,171 - logger_File -INFO - user cicked on order link
+2023-03-12 11:22:45,179 - logger_File -INFO - user clicked on first order on list
+2023-03-12 11:22:45,380 - logger_File -INFO - user cancelled the order
+2023-03-12 11:22:45,539 - logger_File -INFO - user select Bought Woring Item
+2023-03-12 11:22:45,678 - logger_File -INFO - user cancelled the order
+2023-03-12 11:28:06,993 - logger_File -INFO - user is on retail website
+2023-03-12 11:28:07,002 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 11:28:07,312 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 11:28:07,788 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 11:28:07,955 - logger_File -INFO - user clicked on login button
+2023-03-12 11:28:11,805 - logger_File -INFO - user cicked on order link
+2023-03-12 11:28:11,810 - logger_File -INFO - user clicked on first order on list
+2023-03-12 11:33:53,597 - logger_File -INFO - user is on retail website
+2023-03-12 11:33:53,607 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 11:33:53,888 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 11:33:54,426 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 11:33:54,604 - logger_File -INFO - user clicked on login button
+2023-03-12 11:33:58,469 - logger_File -INFO - user cicked on order link
+2023-03-12 11:33:58,474 - logger_File -INFO - user clicked on first order on list
+2023-03-12 11:34:02,117 - logger_File -INFO - Review Added Successfully
+2023-03-12 11:36:25,017 - logger_File -INFO - user is on retail website
+2023-03-12 11:36:25,026 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 11:36:25,398 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 11:36:26,029 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 11:36:26,273 - logger_File -INFO - user clicked on login button
+2023-03-12 11:36:29,979 - logger_File -INFO - user cicked on order link
+2023-03-12 11:36:29,984 - logger_File -INFO - user clicked on first order on list
+2023-03-12 11:37:17,932 - logger_File -INFO - user is on retail website
+2023-03-12 11:37:17,941 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 11:37:18,218 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 11:37:18,686 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 11:37:18,851 - logger_File -INFO - user clicked on login button
+2023-03-12 11:37:22,704 - logger_File -INFO - user cicked on order link
+2023-03-12 11:37:22,710 - logger_File -INFO - user clicked on first order on list
+2023-03-12 11:38:41,587 - logger_File -INFO - user is on retail website
+2023-03-12 11:38:41,598 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 11:38:41,852 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 11:38:42,361 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 11:38:42,516 - logger_File -INFO - user clicked on login button
+2023-03-12 11:38:46,241 - logger_File -INFO - user cicked on order link
+2023-03-12 11:38:46,244 - logger_File -INFO - user clicked on first order on list

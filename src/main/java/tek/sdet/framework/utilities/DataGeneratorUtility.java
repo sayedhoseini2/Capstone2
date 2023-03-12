@@ -88,6 +88,9 @@ public class DataGeneratorUtility {
         	outPut=faker.number().digits(3);       	
         			
         	
+        } else if(input.equals("review")) {
+        	outPut=faker.expression("fs???????????");     
+        	
 
         } else 
 		//outPut=faker.expression(outPut);

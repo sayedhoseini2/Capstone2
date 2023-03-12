@@ -31,6 +31,33 @@ public class RetailOrderPage extends BaseSetup{
 	@FindBy(xpath="//p[contains(text(),'Your Order Has Been Cancelled')]")
 	public WebElement yourOrderHasBeenCancelled;
 	
+    @FindBy(xpath="//button[@id='returnBtn']")
+	public WebElement returnBtn;
+
+    @FindBy(xpath="//select[@id='dropOffInput']")
+	public WebElement dropOffInput;
+
+    @FindBy(xpath="//button[@id='orderSubmitBtn']")
+	public WebElement returnOrder;
+        
+    @FindBy(xpath="/p[contains(text(),'Return was successfull')]")
+	public WebElement returnWasSuccessfull;
+
+    @FindBy(xpath="//button[@id='reviewBtn']")
+	public WebElement reviewBtn;
+
+    @FindBy(xpath="//input[@id='headlineInput']")
+	public WebElement headLineInput;
+
+    @FindBy(xpath="//textarea[@id='descriptionInput']")
+	public WebElement descriptionInput;
+
+    @FindBy(xpath="//button[@id='reviewSubmitBtn']")
+	public WebElement reviewSubmitBtn;
+
+    @FindBy(xpath="//div[contains(text(),'Your review was added successfully')]")
+	public WebElement reviewAddedMessage;
+	
 	
 	
 }
