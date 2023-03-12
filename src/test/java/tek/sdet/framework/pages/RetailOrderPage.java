@@ -40,7 +40,7 @@ public class RetailOrderPage extends BaseSetup{
     @FindBy(xpath="//button[@id='orderSubmitBtn']")
 	public WebElement returnOrder;
         
-    @FindBy(xpath="/p[contains(text(),'Return was successfull')]")
+    @FindBy(xpath="//p[contains(text(),'Return was successfull')]")
 	public WebElement returnWasSuccessfull;
 
     @FindBy(xpath="//button[@id='reviewBtn']")

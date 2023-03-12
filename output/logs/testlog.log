@@ -980,3 +980,63 @@
 2023-03-12 11:38:42,516 - logger_File -INFO - user clicked on login button
 2023-03-12 11:38:46,241 - logger_File -INFO - user cicked on order link
 2023-03-12 11:38:46,244 - logger_File -INFO - user clicked on first order on list
+2023-03-12 12:17:43,762 - logger_File -INFO - user is on retail website
+2023-03-12 12:17:43,771 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 12:17:44,213 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:17:44,830 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 12:17:45,013 - logger_File -INFO - user clicked on login button
+2023-03-12 12:17:48,721 - logger_File -INFO - user cicked on order link
+2023-03-12 12:17:48,727 - logger_File -INFO - user clicked on first order on list
+2023-03-12 12:17:48,912 - logger_File -INFO - user cliked on return item
+2023-03-12 12:17:49,127 - logger_File -INFO - user select the reason for cancellation
+2023-03-12 12:17:49,283 - logger_File -INFO - user selecc the drop off method
+2023-03-12 12:17:49,443 - logger_File -INFO - user clicked on return order button
+2023-03-12 12:22:37,664 - logger_File -INFO - user is on retail website
+2023-03-12 12:22:37,673 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 12:22:37,961 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:22:38,418 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 12:22:38,571 - logger_File -INFO - user clicked on login button
+2023-03-12 12:22:39,576 - logger_File -INFO - user clicked on sidebar and change the category to Smart Home
+2023-03-12 12:22:40,214 - logger_File -INFO - user searched for an item
+2023-03-12 12:22:40,324 - logger_File -INFO - user searched for an item
+2023-03-12 12:22:40,491 - logger_File -INFO - user select an item
+2023-03-12 12:22:40,829 - logger_File -INFO - user select 2 items
+2023-03-12 12:22:40,998 - logger_File -INFO - user add the items to the card
+2023-03-12 12:22:44,266 - logger_File -INFO - user chnaged the number of items to 3 items
+2023-03-12 12:22:44,432 - logger_File -INFO - user clicked on shopping caard
+2023-03-12 12:22:44,640 - logger_File -INFO - user clicked on proceed to checkout
+2023-03-12 12:22:44,767 - logger_File -INFO - user clicked on place order button
+2023-03-12 12:22:45,828 - logger_File -INFO - order placed successfully
+2023-03-12 12:26:57,609 - logger_File -INFO - user is on retail website
+2023-03-12 12:26:57,618 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 12:26:57,901 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:26:58,378 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 12:26:58,528 - logger_File -INFO - user clicked on login button
+2023-03-12 12:27:02,317 - logger_File -INFO - user cicked on order link
+2023-03-12 12:27:02,321 - logger_File -INFO - user clicked on first order on list
+2023-03-12 12:27:02,486 - logger_File -INFO - user cliked on return item
+2023-03-12 12:27:02,638 - logger_File -INFO - user select the reason for cancellation
+2023-03-12 12:27:02,782 - logger_File -INFO - user selecc the drop off method
+2023-03-12 12:27:02,920 - logger_File -INFO - user clicked on return order button
+2023-03-12 12:27:02,922 - logger_File -INFO - order placed successfully
+2023-03-12 12:27:03,194 - logger_File -INFO - return was successfull
+2023-03-12 12:27:59,418 - logger_File -INFO - user is on retail website
+2023-03-12 12:27:59,427 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 12:27:59,731 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:28:00,251 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 12:28:00,418 - logger_File -INFO - user clicked on login button
+2023-03-12 12:28:04,236 - logger_File -INFO - user cicked on order link
+2023-03-12 12:28:04,240 - logger_File -INFO - user clicked on first order on list
+2023-03-12 12:28:53,832 - logger_File -INFO - user is on retail website
+2023-03-12 12:28:53,839 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 12:28:54,155 - logger_File -INFO - User clicked on Sign in Option
+2023-03-12 12:28:54,747 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-12 12:28:54,905 - logger_File -INFO - user clicked on login button
+2023-03-12 12:28:58,610 - logger_File -INFO - user cicked on order link
+2023-03-12 12:28:58,617 - logger_File -INFO - user clicked on first order on list
+2023-03-12 12:28:58,836 - logger_File -INFO - user cliked on return item
+2023-03-12 12:28:59,013 - logger_File -INFO - user select the reason for cancellation
+2023-03-12 12:28:59,157 - logger_File -INFO - user selecc the drop off method
+2023-03-12 12:28:59,382 - logger_File -INFO - user clicked on return order button
+2023-03-12 12:28:59,385 - logger_File -INFO - order placed successfully
+2023-03-12 12:28:59,653 - logger_File -INFO - return was successfull
