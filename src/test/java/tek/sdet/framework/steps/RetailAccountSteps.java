@@ -25,9 +25,9 @@ public class RetailAccountSteps extends CommonUtility {
 	@When("User update Name {string} and Phone {string}")
 	public void userUpdateNameAndPhone(String nameValue, String phoneValue) {
 		clearTextUsingSendKeys(factory.accountPage().profileNameInputField);
-		sendText(factory.accountPage().profileNameInputField, nameValue);
+		sendText(factory.accountPage().profileNameInputField, DataGeneratorUtility.data("fullName"));
 		clearTextUsingSendKeys(factory.accountPage().profilePhoneNumberField);
-		sendText(factory.accountPage().profilePhoneNumberField, phoneValue);
+		sendText(factory.accountPage().profilePhoneNumberField, DataGeneratorUtility.data("phoneNumber"));
 		logger.info("user updated Name and Phone values ");
 	}
 	@When("User click on Update button")
