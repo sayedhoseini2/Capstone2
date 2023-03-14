@@ -90,10 +90,10 @@ public class CommonUtility extends BaseSetup {
         select.selectByIndex(index);
     }
 	
-    public void selectByValue(WebElement ele, int i) {
-        Select select = new Select(ele);
-        select.selectByValue(i);
-    }
+   // public void selectByValue(WebElement ele, int i) {
+        //Select select = new Select(ele);
+       // select.selectByValue(i);
+    //}
 	
     public void selectByVisibleText(WebElement ele, String visibleText) {
         Select select = new Select(ele);
