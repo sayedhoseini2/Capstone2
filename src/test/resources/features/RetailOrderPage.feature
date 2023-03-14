@@ -1,6 +1,6 @@
 Feature: This feature is use for testing UI of Retail page as well
 
-  @cancelAnOrder
+  @cancelAnOrder @Smoketest
   Scenario: Verify User can cancel the order
     Given User is on retail website
     When User click on Sign in option
@@ -14,7 +14,7 @@ Feature: This feature is use for testing UI of Retail page as well
     And User click on Cancel Order button
     Then a cancelation message should be displayed ‘Your Order Has Been Cancelled’
 
-  @returnAnOrder
+  @returnAnOrder @Smoketest
   Scenario: Verify User can Return the order
     Given User is on retail website
     When User click on Sign in option
@@ -29,7 +29,7 @@ Feature: This feature is use for testing UI of Retail page as well
     And User click on Return Order button
     Then a cancelation message should be displayed ‘Return was successful’
     
-@reviewAnOrder
+@reviewAnOrder @Smoketest
   Scenario: Verify User can write a review on order placed
     Given User is on retail website
     When User click on Sign in option

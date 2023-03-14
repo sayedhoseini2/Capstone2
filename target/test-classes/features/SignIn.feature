@@ -4,7 +4,7 @@ Feature: SignIn feature
     Given User is on retail website
    When User click on Sign in option
     
-@SignIn
+@SignIn @Smoketest
   Scenario: Verify user can sign in into Retail Application
     And User enter email 'smaisamh@gmail.com' and password 'Adamsho1@'
     And User click on login button
@@ -15,12 +15,8 @@ Feature: SignIn feature
    And User click on login button
   Then User should be logged in into Account
 
- # Examples: 
-  # | email                     | password  |
-   # | transformers@tekschool.us | Tek@12345 |
-   #  | phantom.test@gmail.com    | Tek@12345 |
 
-  @SignUp
+  @SignUp @Smoketest
   Scenario: Verify user can create an account into Retail Website
     And User click on Create New Account button
     And User fill the signUp information with below data

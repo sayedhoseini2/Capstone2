@@ -7,14 +7,14 @@ Feature: Retail Application Account Feature
     And User click on login button
     And User should be logged in into Account
 
-  @UpdateProfileInformation
+  @UpdateProfileInformation @Smoketest
   Scenario: Verify User can update Profile Information
     When User click on Account option
     And User update Name 'SayedHoseini' and Phone '4080000000'
     And User click on Update button
     Then User profile information should be updated
 
-  @UpdatePassword
+  @UpdatePassword @Smoketest
   Scenario: Verify User can Update password
     When User click on Account option
     And User enter below information
@@ -23,7 +23,7 @@ Feature: Retail Application Account Feature
     And User click on Change Password button
     Then a message should be displayed2 'Password Updated Successfully'
 
-  @AddAddress
+  @AddAddress @Smoketest
   Scenario: Verify User can add an address
     When User click on Account option
     And User click on Add address option
@@ -32,7 +32,7 @@ Feature: Retail Application Account Feature
     And User click Add address button
     Then a message should be displayed 'Address Added Successfully'
 
-  @EditAddress
+  @EditAddress @Smoketest
   Scenario: Verify User can edit an Address added on account
     When User click on Account option
     And User click on edit address option
@@ -41,13 +41,13 @@ Feature: Retail Application Account Feature
     And User click update Your Address button
     Then a message should be displayed ‘Address Updated Successfully’
 
-  @RemoveAddress
+  @RemoveAddress @Smoketest
   Scenario: Verify User can remove Address from Account
     When User click on Account option
     And User click on remove option of Address section
     Then Address details should be removed
 
-  @AddPayement
+  @AddPayement @Smoketest
   Scenario: Verify User can add a payment method
     When User click on Account option
     And User click on Add a payment method link
@@ -57,7 +57,7 @@ Feature: Retail Application Account Feature
     And User click on Add your card button
     Then a message should be seen 'Payment Method added successfully'
 
-  @EditPaymentMethod
+  @EditPaymentMethod @Smoketest
   Scenario: Verify User can edit Debit or Credit card
     When User click on Account option
     And User click on Edit option of card section
@@ -67,7 +67,7 @@ Feature: Retail Application Account Feature
     And user click on Update Your Card button
     Then a message should be displayed ‘Payment Method updated Successfully’
 
-  @RemovePayment
+  @RemovePayment @Smoketest
   Scenario: Verify User can remove Debit or Credit card
     When User click on Account option
     And User click on remove option of card section

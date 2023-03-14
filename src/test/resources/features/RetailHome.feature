@@ -1,19 +1,19 @@
 Feature: This feature is use for testing UI of Retail page
 
-  @searchProduct
+  @searchProduct @Smoketest
   Scenario: Verify user can search a product
     Given User is on retail website
     When User search for "pokemon" product
     Then The product should be displayed
 
-  @DeptSidebar
+  @DeptSidebar @Smoketest
   Scenario: Verify Shop by Department sidebar
     Given User is on retail website
     When User click on All section
     Then below options are present in shop by department sidebar
       | Electronics | Computers | Smart Home | Sports | Automative |
 
-  @DeptSidebarOption
+  @DeptSidebarOption @Smoketest
   Scenario Outline: Verify Department sidebar options
     Given User is on retail website
     When User click on All section
@@ -29,7 +29,7 @@ Feature: This feature is use for testing UI of Retail page
       | Sports      | Athletic Clothing              | Exercise & Fitness       |
       | Automative  | Automative Parts & Accessories | MotorCycle & Powersports |
 
-  @AddItemOnCard
+  @AddItemOnCard @Smoketest
   Scenario: Verify User can add an item to cart
     Given User is on retail website
     When User click on Sign in option
@@ -44,7 +44,7 @@ Feature: This feature is use for testing UI of Retail page
     And User click add to Cart button
     Then the cart icon quantity should change to ‘2’
 
-  @AddOrderWithoutAddress
+  @AddOrderWithoutAddress @Smoketest
   Scenario: Verify User can place an order without Shipping address and payment Method on file
     Given User is on retail website
     When User click on Sign in option
@@ -72,7 +72,7 @@ Feature: This feature is use for testing UI of Retail page
     And User click on Place Your Order
     Then a message should be displayed ‘Order Placed, Thanks’
 
-  @AddOrderWithAddress
+  @AddOrderWithAddress @Smoketest
   Scenario: Verify User can place an order with Shipping address and payment Method on file
     Given User is on retail website
     When User click on Sign in option
