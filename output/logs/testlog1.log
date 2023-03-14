@@ -1554,3 +1554,29 @@
 2023-03-12 12:28:59,382 [main] INFO logger_File - user clicked on return order button
 2023-03-12 12:28:59,385 [main] INFO logger_File - order placed successfully
 2023-03-12 12:28:59,653 [main] INFO logger_File - return was successfull
+2023-03-13 18:11:10,330 [main] INFO logger_File - user is on retail website
+2023-03-13 18:11:10,340 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 18:11:10,967 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 18:11:11,681 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-13 18:11:11,855 [main] INFO logger_File - user clicked on login button
+2023-03-13 18:11:15,577 [main] INFO logger_File - user cicked on order link
+2023-03-13 18:11:15,586 [main] INFO logger_File - user clicked on first order on list
+2023-03-13 18:11:15,835 [main] INFO logger_File - user cliked on return item
+2023-03-13 18:11:16,064 [main] INFO logger_File - user select the reason for cancellation
+2023-03-13 18:11:16,267 [main] INFO logger_File - user selecc the drop off method
+2023-03-13 18:11:16,471 [main] INFO logger_File - user clicked on return order button
+2023-03-13 18:11:16,474 [main] INFO logger_File - order placed successfully
+2023-03-13 18:11:16,765 [main] INFO logger_File - return was successfull
+2023-03-13 19:27:32,755 [main] INFO logger_File - user is on retail website
+2023-03-13 19:27:32,764 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 19:27:33,098 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 19:27:33,820 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-13 19:27:34,010 [main] INFO logger_File - user clicked on login button
+2023-03-13 19:27:40,036 [main] INFO logger_File - user cicked on order link
+2023-03-13 19:27:40,039 [main] INFO logger_File - user clicked on first order on list
+2023-03-13 19:27:40,198 [main] INFO logger_File - user cliked on return item
+2023-03-13 19:27:40,340 [main] INFO logger_File - user select the reason for cancellation
+2023-03-13 19:27:40,463 [main] INFO logger_File - user selecc the drop off method
+2023-03-13 19:27:40,611 [main] INFO logger_File - user clicked on return order button
+2023-03-13 19:27:40,614 [main] INFO logger_File - order placed successfully
+2023-03-13 19:27:40,876 [main] INFO logger_File - return was successfull

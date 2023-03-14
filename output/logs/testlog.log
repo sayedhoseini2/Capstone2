@@ -1040,3 +1040,29 @@
 2023-03-12 12:28:59,382 - logger_File -INFO - user clicked on return order button
 2023-03-12 12:28:59,385 - logger_File -INFO - order placed successfully
 2023-03-12 12:28:59,653 - logger_File -INFO - return was successfull
+2023-03-13 18:11:10,330 - logger_File -INFO - user is on retail website
+2023-03-13 18:11:10,340 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 18:11:10,967 - logger_File -INFO - User clicked on Sign in Option
+2023-03-13 18:11:11,681 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-13 18:11:11,855 - logger_File -INFO - user clicked on login button
+2023-03-13 18:11:15,577 - logger_File -INFO - user cicked on order link
+2023-03-13 18:11:15,586 - logger_File -INFO - user clicked on first order on list
+2023-03-13 18:11:15,835 - logger_File -INFO - user cliked on return item
+2023-03-13 18:11:16,064 - logger_File -INFO - user select the reason for cancellation
+2023-03-13 18:11:16,267 - logger_File -INFO - user selecc the drop off method
+2023-03-13 18:11:16,471 - logger_File -INFO - user clicked on return order button
+2023-03-13 18:11:16,474 - logger_File -INFO - order placed successfully
+2023-03-13 18:11:16,765 - logger_File -INFO - return was successfull
+2023-03-13 19:27:32,755 - logger_File -INFO - user is on retail website
+2023-03-13 19:27:32,764 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 19:27:33,098 - logger_File -INFO - User clicked on Sign in Option
+2023-03-13 19:27:33,820 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-13 19:27:34,010 - logger_File -INFO - user clicked on login button
+2023-03-13 19:27:40,036 - logger_File -INFO - user cicked on order link
+2023-03-13 19:27:40,039 - logger_File -INFO - user clicked on first order on list
+2023-03-13 19:27:40,198 - logger_File -INFO - user cliked on return item
+2023-03-13 19:27:40,340 - logger_File -INFO - user select the reason for cancellation
+2023-03-13 19:27:40,463 - logger_File -INFO - user selecc the drop off method
+2023-03-13 19:27:40,611 - logger_File -INFO - user clicked on return order button
+2023-03-13 19:27:40,614 - logger_File -INFO - order placed successfully
+2023-03-13 19:27:40,876 - logger_File -INFO - return was successfull
