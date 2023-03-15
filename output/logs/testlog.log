@@ -1504,3 +1504,8 @@
 2023-03-14 15:22:37,496 - logger_File -INFO - user updated Name and Phone values 
 2023-03-14 15:22:37,832 - logger_File -INFO - user clicked on Update button
 2023-03-14 15:22:38,543 - logger_File -INFO - user profile information updated
+2023-03-14 17:48:12,442 - logger_File -INFO - user is on retail website
+2023-03-14 17:48:12,456 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 17:48:13,572 - logger_File -INFO - User clicked on Sign in Option
+2023-03-14 17:48:14,707 - logger_File -INFO - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 17:48:15,210 - logger_File -INFO - user clicked on login button

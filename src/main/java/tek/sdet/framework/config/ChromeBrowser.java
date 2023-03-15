@@ -16,6 +16,7 @@ public class ChromeBrowser implements Browser {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions ops = new ChromeOptions(); //in case chrome update failed the test
 		ops.addArguments("--remote-allow-origins=*"); //in case chrome update failed the test
+		
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		return driver;
