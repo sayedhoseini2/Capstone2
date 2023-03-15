@@ -14,13 +14,11 @@ public class ChromeBrowser implements Browser {
 	 */
 	public WebDriver openBrowser(String url) {
 		WebDriverManager.chromedriver().setup();
-		ChromeOptions ops = new ChromeOptions(); //in case chrome update failed the test
-		ops.addArguments("--remote-allow-origins=*"); //in case chrome update failed the test
-		
-		WebDriver driver = new ChromeDriver();
+		ChromeOptions ops = new ChromeOptions();
+		ops.addArguments("--remote-allow-origins=*");
+		WebDriver driver = new ChromeDriver(ops);
 		driver.get(url);
 		return driver;
-
 	}
 
 

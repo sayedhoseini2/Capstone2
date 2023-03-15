@@ -7,6 +7,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.sdet.framework.pages.POMFactory;
@@ -53,15 +54,15 @@ public class RetailAccountSteps extends CommonUtility {
 	}
 	@When("User fill new address form with below information")
 	public void userFillNewAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
-	    List<List<String>> addressInfo= dataTable.asLists(String.class);
-	    selectByVisibleText(factory.accountPage.country,DataGeneratorUtility.data(addressInfo.get(0).get(0)));
-	    sendText(factory.accountPage.addressFullNameField, DataGeneratorUtility.data(addressInfo.get(0).get(1)));
-	    sendText(factory.accountPage.addressPhoneNumberField, DataGeneratorUtility.data(addressInfo.get(0).get(2)));
-	    sendText(factory.accountPage.AddressField,DataGeneratorUtility.data(addressInfo.get(0).get(3)));
-	    sendText(factory.accountPage.apartmentField, DataGeneratorUtility.data(addressInfo.get(0).get(4)));
-	    sendText(factory.accountPage.cityField, DataGeneratorUtility.data(addressInfo.get(0).get(5)));
-	    selectByVisibleText(factory.accountPage.stateDropDown, DataGeneratorUtility.data(addressInfo.get(0).get(6)));
-	    sendText(factory.accountPage.zipCodeField,DataGeneratorUtility.data(addressInfo.get(0).get(7)));
+	    List<Map<String, String>> addressInfo= dataTable.asMaps(String.class, String.class);
+	    selectByValue(factory.accountPage.country,DataGeneratorUtility.data(addressInfo.get(0).get("country")));
+	    sendText(factory.accountPage.addressFullNameField, DataGeneratorUtility.data(addressInfo.get(0).get("fullName")));
+	    sendText(factory.accountPage.addressPhoneNumberField, DataGeneratorUtility.data(addressInfo.get(0).get("phoneNumber")));
+	    sendText(factory.accountPage.AddressField,DataGeneratorUtility.data(addressInfo.get(0).get("StreetAddress")));
+	    sendText(factory.accountPage.apartmentField, DataGeneratorUtility.data(addressInfo.get(0).get("apt")));
+	    sendText(factory.accountPage.cityField, DataGeneratorUtility.data(addressInfo.get(0).get("city")));
+	    selectByValue(factory.accountPage.stateDropDown, DataGeneratorUtility.data(addressInfo.get(0).get("state")));
+	    sendText(factory.accountPage.zipCodeField,DataGeneratorUtility.data(addressInfo.get(0).get("zipcode")));
 	    logger.info("user added new addss information provided in data table");	    
 	}
 	@When("User click Add address button")
@@ -85,23 +86,23 @@ public class RetailAccountSteps extends CommonUtility {
 	}
 	@When("user fill new address form with below information")
 	public void userFillEditAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
-		List<List<String>> editAddressInfo= dataTable.asLists(String.class);
+		List<Map<String, String>> editAddressInfo= dataTable.asMaps(String.class, String.class);
 		clearTextUsingSendKeys(factory.accountPage().country);
-	    selectByVisibleText(factory.accountPage.country,DataGeneratorUtility.data(editAddressInfo.get(0).get(0)));
+	    selectByVisibleText(factory.accountPage.country,DataGeneratorUtility.data(editAddressInfo.get(0).get("country")));
 	    clearTextUsingSendKeys(factory.accountPage().addressFullNameField);
-	    sendText(factory.accountPage.addressFullNameField, DataGeneratorUtility.data(editAddressInfo.get(0).get(1)));
+	    sendText(factory.accountPage.addressFullNameField, DataGeneratorUtility.data(editAddressInfo.get(0).get("fullName")));
 	    clearTextUsingSendKeys(factory.accountPage().addressPhoneNumberField);
-	    sendText(factory.accountPage.addressPhoneNumberField, DataGeneratorUtility.data(editAddressInfo.get(0).get(2)));
+	    sendText(factory.accountPage.addressPhoneNumberField, DataGeneratorUtility.data(editAddressInfo.get(0).get("phoneNumber")));
 	    clearTextUsingSendKeys(factory.accountPage().AddressField);
-	    sendText(factory.accountPage.AddressField,DataGeneratorUtility.data(editAddressInfo.get(0).get(3)));
+	    sendText(factory.accountPage.AddressField,DataGeneratorUtility.data(editAddressInfo.get(0).get("StreetAddress")));
 	    clearTextUsingSendKeys(factory.accountPage().apartmentField);
-	    sendText(factory.accountPage.apartmentField, DataGeneratorUtility.data(editAddressInfo.get(0).get(4)));
+	    sendText(factory.accountPage.apartmentField, DataGeneratorUtility.data(editAddressInfo.get(0).get("apt")));
 	    clearTextUsingSendKeys(factory.accountPage().cityField);
-	    sendText(factory.accountPage.cityField, DataGeneratorUtility.data(editAddressInfo.get(0).get(5)));
+	    sendText(factory.accountPage.cityField, DataGeneratorUtility.data(editAddressInfo.get(0).get("city")));
 	    clearTextUsingSendKeys(factory.accountPage().stateDropDown);
-	    selectByVisibleText(factory.accountPage.stateDropDown, DataGeneratorUtility.data(editAddressInfo.get(0).get(6)));
+	    selectByVisibleText(factory.accountPage.stateDropDown, DataGeneratorUtility.data(editAddressInfo.get(0).get("state")));
 	    clearTextUsingSendKeys(factory.accountPage().zipCodeField);
-	    sendText(factory.accountPage.zipCodeField,DataGeneratorUtility.data(editAddressInfo.get(0).get(7)));
+	    sendText(factory.accountPage.zipCodeField,DataGeneratorUtility.data(editAddressInfo.get(0).get("zipcode")));
 	    logger.info("user added new addss information provided in data table");;
 	}
 	@When("User click update Your Address button")
@@ -142,7 +143,7 @@ public class RetailAccountSteps extends CommonUtility {
 	
 	
 	@When("User enter below information")
-	public void userEnterBelowInformation(io.cucumber.datatable.DataTable dataTable) {
+	public void userEnterBelowInformation(DataTable dataTable) {
 		List<Map<String, String>> updatePassword = dataTable.asMaps(String.class, String.class);
 		sendText(factory.accountPage().previousPassword,DataGeneratorUtility.data(updatePassword.get(0).get("previousPassword")));
 		sendText(factory.accountPage().newPassword,DataGeneratorUtility.data(updatePassword.get(0).get("newPassword")));

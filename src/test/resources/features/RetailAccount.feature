@@ -29,6 +29,7 @@ Feature: Retail Application Account Feature
     And User click on Add address option
     And User fill new address form with below information
       | country | fullName | phoneNumber | StreetAddress | apt | city | state | zipcode |
+      | country | fullName | phoneNumber | StreetAddress | apt   | city  | state | zipcode |
     And User click Add address button
     Then a message should be displayed 'Address Added Successfully'
 
@@ -38,6 +39,7 @@ Feature: Retail Application Account Feature
     And User click on edit address option
     And user fill new address form with below information
       | country | fullName | phoneNumber | StreetAddress | apt   | city  | state | zipcode |
+      | country | fullName | phoneNumber | StreetAddress | apt   | city  | state | zipcode |  
     And User click update Your Address button
     Then a message should be displayed ‘Address Updated Successfully’
 

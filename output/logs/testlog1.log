@@ -2023,3 +2023,238 @@
 2023-03-14 17:48:13,572 [main] INFO logger_File - User clicked on Sign in Option
 2023-03-14 17:48:14,707 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
 2023-03-14 17:48:15,210 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:14:58,110 [main] INFO logger_File - user is on retail website
+2023-03-14 19:14:58,120 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:14:58,591 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:14:59,175 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:14:59,348 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:16:47,220 [main] INFO logger_File - user is on retail website
+2023-03-14 19:16:47,230 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:16:47,979 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:16:48,599 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:16:48,752 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:18:48,390 [main] INFO logger_File - user is on retail website
+2023-03-14 19:18:48,399 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:18:48,877 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:18:49,521 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:18:49,687 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:18:50,445 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:18:52,548 [main] INFO logger_File - user updated Name and Phone values 
+2023-03-14 19:18:52,994 [main] INFO logger_File - user clicked on Update button
+2023-03-14 19:18:53,998 [main] INFO logger_File - user profile information updated
+2023-03-14 19:19:00,972 [main] INFO logger_File - user is on retail website
+2023-03-14 19:19:00,976 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:19:01,504 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:19:02,270 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:19:02,427 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:19:03,238 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:19:04,138 [main] INFO logger_File - user filled the updatePassword information formwith updated password of Test@1dxpfs
+2023-03-14 19:19:04,279 [main] INFO logger_File - user clicked on chnaged password button
+2023-03-14 19:19:10,760 [main] INFO logger_File - user is on retail website
+2023-03-14 19:19:10,761 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:19:11,045 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:19:11,558 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:19:11,708 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:19:12,594 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:19:13,293 [main] INFO logger_File - user clicked on address option
+2023-03-14 19:20:15,257 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-14 19:20:15,441 [main] INFO logger_File - user clicked on add address button
+2023-03-14 19:20:16,384 [main] INFO logger_File - Address Added Successfully
+2023-03-14 19:20:22,824 [main] INFO logger_File - user is on retail website
+2023-03-14 19:20:22,828 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:20:23,097 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:20:23,637 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:20:23,832 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:20:24,769 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:20:25,103 [main] INFO logger_File - user clicked om edit address option
+2023-03-14 19:22:07,697 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-14 19:22:07,901 [main] INFO logger_File - user clicked on update address button
+2023-03-14 19:22:08,778 [main] INFO logger_File - Address updated successfully
+2023-03-14 19:22:14,701 [main] INFO logger_File - user is on retail website
+2023-03-14 19:22:14,705 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:22:14,978 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:22:15,610 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:22:15,779 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:22:16,669 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:22:16,886 [main] INFO logger_File - user clicked on remove address button
+2023-03-14 19:22:16,888 [main] INFO logger_File - address removed
+2023-03-14 19:22:22,778 [main] INFO logger_File - user is on retail website
+2023-03-14 19:22:22,780 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:22:23,067 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:22:23,669 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:22:23,819 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:22:24,677 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:22:24,949 [main] INFO logger_File - user clicked on add a payment method
+2023-03-14 19:22:26,156 [main] INFO logger_File - user clicked on add card button
+2023-03-14 19:22:26,950 [main] INFO logger_File - Payment Method Added Successfully
+2023-03-14 19:22:32,681 [main] INFO logger_File - user is on retail website
+2023-03-14 19:22:32,685 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:22:32,994 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:22:33,619 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:22:33,775 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:22:34,783 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:22:35,411 [main] INFO logger_File - User clicked on edit payement method
+2023-03-14 19:22:37,035 [main] INFO logger_File - user clicked on updateYourCard
+2023-03-14 19:22:37,933 [main] INFO logger_File - Payent method updated
+2023-03-14 19:22:43,699 [main] INFO logger_File - user is on retail website
+2023-03-14 19:22:43,700 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:22:43,984 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:22:44,537 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:22:44,704 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:22:45,465 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:22:45,964 [main] INFO logger_File - user clicked on remove the card info
+2023-03-14 19:22:46,062 [main] INFO logger_File - card informationed is removed
+2023-03-14 19:22:53,280 [main] INFO logger_File - user is on retail website
+2023-03-14 19:22:53,281 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:22:53,646 [main] INFO logger_File - user searched for product pokemon
+2023-03-14 19:22:53,886 [main] INFO logger_File - the Product is displayed on home page
+2023-03-14 19:23:02,900 [main] INFO logger_File - user is on retail website
+2023-03-14 19:23:02,903 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:23:03,417 [main] INFO logger_File - user clicked on All section
+2023-03-14 19:23:03,950 [main] INFO logger_File - actual is equal to expected
+2023-03-14 19:23:10,460 [main] INFO logger_File - user is on retail website
+2023-03-14 19:23:10,463 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:23:10,659 [main] INFO logger_File - user clicked on All section
+2023-03-14 19:23:10,991 [main] INFO logger_File - TV & Video is present 
+2023-03-14 19:23:11,153 [main] INFO logger_File - Video Games is present 
+2023-03-14 19:23:16,679 [main] INFO logger_File - user is on retail website
+2023-03-14 19:23:16,683 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:23:16,880 [main] INFO logger_File - user clicked on All section
+2023-03-14 19:23:17,283 [main] INFO logger_File - Accessories is present 
+2023-03-14 19:23:17,473 [main] INFO logger_File - Networking is present 
+2023-03-14 19:23:31,954 [main] INFO logger_File - user is on retail website
+2023-03-14 19:23:31,956 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:23:32,595 [main] INFO logger_File - user clicked on All section
+2023-03-14 19:23:33,382 [main] INFO logger_File - Smart Home Lightning is present 
+2023-03-14 19:23:33,536 [main] INFO logger_File - Plugs and Outlets is present 
+2023-03-14 19:23:43,412 [main] INFO logger_File - user is on retail website
+2023-03-14 19:23:43,415 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:23:43,628 [main] INFO logger_File - user clicked on All section
+2023-03-14 19:23:44,100 [main] INFO logger_File - Athletic Clothing is present 
+2023-03-14 19:23:44,214 [main] INFO logger_File - Exercise & Fitness is present 
+2023-03-14 19:23:49,897 [main] INFO logger_File - user is on retail website
+2023-03-14 19:23:49,899 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:23:50,140 [main] INFO logger_File - user clicked on All section
+2023-03-14 19:23:50,689 [main] INFO logger_File - Automative Parts & Accessories is present 
+2023-03-14 19:23:50,811 [main] INFO logger_File - MotorCycle & Powersports is present 
+2023-03-14 19:23:56,983 [main] INFO logger_File - user is on retail website
+2023-03-14 19:23:56,985 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:23:57,257 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:23:57,754 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:23:57,921 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:23:58,933 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-14 19:23:59,457 [main] INFO logger_File - user searched for an item
+2023-03-14 19:23:59,612 [main] INFO logger_File - user searched for an item
+2023-03-14 19:23:59,737 [main] INFO logger_File - user select an item
+2023-03-14 19:24:00,152 [main] INFO logger_File - user select 2 items
+2023-03-14 19:24:00,295 [main] INFO logger_File - user add the items to the card
+2023-03-14 19:24:03,560 [main] INFO logger_File - user chnaged the number of items to 3 items
+2023-03-14 19:24:11,678 [main] INFO logger_File - user is on retail website
+2023-03-14 19:24:11,682 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:24:11,881 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:24:12,528 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:24:12,707 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:24:13,810 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-14 19:24:14,656 [main] INFO logger_File - user searched for an item
+2023-03-14 19:24:14,782 [main] INFO logger_File - user searched for an item
+2023-03-14 19:24:14,944 [main] INFO logger_File - user select an item
+2023-03-14 19:24:15,537 [main] INFO logger_File - user select 2 items
+2023-03-14 19:24:15,749 [main] INFO logger_File - user add the items to the card
+2023-03-14 19:24:18,794 [main] INFO logger_File - user chnaged the number of items to 3 items
+2023-03-14 19:24:18,985 [main] INFO logger_File - user clicked on shopping caard
+2023-03-14 19:24:19,267 [main] INFO logger_File - user clicked on proceed to checkout
+2023-03-14 19:24:19,515 [main] INFO logger_File - user clicked on add address button
+2023-03-14 19:25:21,479 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-14 19:25:21,688 [main] INFO logger_File - user clicked on add your address
+2023-03-14 19:25:21,959 [main] INFO logger_File - user clicked on add payement method
+2023-03-14 19:25:22,874 [main] INFO logger_File - user clicked on add card button
+2023-03-14 19:25:23,080 [main] INFO logger_File - user clicked on place order button
+2023-03-14 19:25:24,130 [main] INFO logger_File - order placed successfully
+2023-03-14 19:25:29,894 [main] INFO logger_File - user is on retail website
+2023-03-14 19:25:29,895 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:25:30,169 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:25:30,669 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:25:30,826 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:25:31,776 [main] INFO logger_File - user clicked on sidebar and change the category to Smart Home
+2023-03-14 19:25:32,456 [main] INFO logger_File - user searched for an item
+2023-03-14 19:25:32,579 [main] INFO logger_File - user searched for an item
+2023-03-14 19:25:32,723 [main] INFO logger_File - user select an item
+2023-03-14 19:25:33,115 [main] INFO logger_File - user select 2 items
+2023-03-14 19:25:33,278 [main] INFO logger_File - user add the items to the card
+2023-03-14 19:25:36,504 [main] INFO logger_File - user chnaged the number of items to 3 items
+2023-03-14 19:25:36,708 [main] INFO logger_File - user clicked on shopping caard
+2023-03-14 19:25:37,009 [main] INFO logger_File - user clicked on proceed to checkout
+2023-03-14 19:25:37,206 [main] INFO logger_File - user clicked on place order button
+2023-03-14 19:25:38,246 [main] INFO logger_File - order placed successfully
+2023-03-14 19:25:43,775 [main] INFO logger_File - user is on retail website
+2023-03-14 19:25:43,777 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:25:44,057 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:25:44,589 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:25:44,747 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:25:48,540 [main] INFO logger_File - user cicked on order link
+2023-03-14 19:25:48,545 [main] INFO logger_File - user clicked on first order on list
+2023-03-14 19:25:48,714 [main] INFO logger_File - user cancelled the order
+2023-03-14 19:25:48,868 [main] INFO logger_File - user select Bought Woring Item
+2023-03-14 19:25:49,021 [main] INFO logger_File - user cancelled the order
+2023-03-14 19:25:49,284 [main] INFO logger_File - your oder has been cancelled
+2023-03-14 19:25:55,262 [main] INFO logger_File - user is on retail website
+2023-03-14 19:25:55,264 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:25:55,520 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:25:56,096 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:25:56,248 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:25:59,944 [main] INFO logger_File - user cicked on order link
+2023-03-14 19:25:59,949 [main] INFO logger_File - user clicked on first order on list
+2023-03-14 19:26:47,600 [main] INFO logger_File - user is on retail website
+2023-03-14 19:26:47,602 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:26:48,091 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:26:48,899 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:26:49,181 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:26:53,607 [main] INFO logger_File - user cicked on order link
+2023-03-14 19:26:53,609 [main] INFO logger_File - user clicked on first order on list
+2023-03-14 19:26:53,821 [main] INFO logger_File - user clicked on review button
+2023-03-14 19:26:56,779 [main] INFO logger_File - user entered its review
+2023-03-14 19:26:56,950 [main] INFO logger_File - user clicked on the review button
+2023-03-14 19:27:06,337 [main] INFO logger_File - user is on retail website
+2023-03-14 19:27:06,339 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:27:06,752 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:27:07,630 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:27:07,790 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:27:14,340 [main] INFO logger_File - user is on retail website
+2023-03-14 19:27:14,343 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:27:14,664 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:27:14,898 [main] INFO logger_File - user clicked on Create New Account button
+2023-03-14 19:27:15,957 [main] INFO logger_File - user filled the signUp information formwith username of Marvin
+2023-03-14 19:27:15,958 [main] INFO logger_File - user email washbt.hyda@tekschool.us
+2023-03-14 19:27:15,960 [main] INFO logger_File - user password wasTest@1sooji
+2023-03-14 19:27:16,099 [main] INFO logger_File - user clicked on SignUpForm button
+2023-03-14 19:27:16,156 [main] INFO logger_File - user is login into account page
+2023-03-14 19:33:22,418 [main] INFO logger_File - user is on retail website
+2023-03-14 19:33:22,427 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:33:22,721 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:33:23,272 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:33:23,408 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:33:24,197 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:33:24,620 [main] INFO logger_File - user clicked on address option
+2023-03-14 19:34:26,927 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-14 19:34:27,113 [main] INFO logger_File - user clicked on add address button
+2023-03-14 19:34:27,954 [main] INFO logger_File - Address Added Successfully
+2023-03-14 19:45:32,372 [main] INFO logger_File - user is on retail website
+2023-03-14 19:45:32,382 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:45:32,626 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:45:33,199 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:45:33,372 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:45:34,158 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:45:34,503 [main] INFO logger_File - user clicked on address option
+2023-03-14 19:46:36,627 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-14 19:46:36,857 [main] INFO logger_File - user clicked on add address button
+2023-03-14 19:46:37,856 [main] INFO logger_File - Address Added Successfully
+2023-03-14 19:52:39,207 [main] INFO logger_File - user is on retail website
+2023-03-14 19:52:39,216 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-14 19:52:39,496 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-14 19:52:40,061 [main] INFO logger_File - user entered email smaisamh@gmail.com and password Adamsho1@
+2023-03-14 19:52:40,207 [main] INFO logger_File - user clicked on login button
+2023-03-14 19:52:41,030 [main] INFO logger_File - user clicked on Account option
+2023-03-14 19:52:41,343 [main] INFO logger_File - user clicked on address option
+2023-03-14 19:53:44,949 [main] INFO logger_File - user added new addss information provided in data table
+2023-03-14 19:53:45,171 [main] INFO logger_File - user clicked on add address button
+2023-03-14 19:53:46,015 [main] INFO logger_File - Address Added Successfully
