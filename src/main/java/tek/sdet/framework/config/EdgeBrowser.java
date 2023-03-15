@@ -10,6 +10,7 @@ public class EdgeBrowser implements Browser {
 	@Override
 	public WebDriver openBrowser(String url) {
 		WebDriverManager.edgedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
 		WebDriver driver = new EdgeDriver();
 		driver.get(url);
 		return driver;
