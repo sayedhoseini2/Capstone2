@@ -18,6 +18,7 @@ Feature: This Feature is for testing UI feature of Retail Application Account pa
 
   @AddAddress @Smoketest
   Scenario: Verify User can add an address
+  #Note to Teacher: DataGenrator makes this feature takes 2-3 min. to run.
     When User click on Account option
     And User click on Add address option
     And User fill new address form with below information
@@ -28,6 +29,7 @@ Feature: This Feature is for testing UI feature of Retail Application Account pa
 
   @EditAddress @Smoketest
   Scenario: Verify User can edit an Address added on account
+  #Note to Teacher: DataGenrator makes this feature takes 2-3 min. to run.
     When User click on Account option
     And User click on edit address option
     And user fill new address form with below information

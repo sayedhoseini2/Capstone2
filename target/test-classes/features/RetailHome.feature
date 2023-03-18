@@ -46,6 +46,7 @@ Feature: This feature is use for testing UI of Retail Home page
 
   @AddOrderWithoutAddress @Smoketest
   Scenario: Verify User can place an order without Shipping address and payment Method on file
+   #Note to Teacher: DataGenrator makes this feature takes 2-3 min. to run.
     Given User is on retail website
     When User click on Sign in option
     And User enter email 'smaisamh@gmail.com' and password 'Adamsho1@'
