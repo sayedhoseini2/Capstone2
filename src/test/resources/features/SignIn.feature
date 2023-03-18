@@ -1,4 +1,4 @@
-Feature: SignIn feature
+Feature: This Feature is for testing UI of SignIn Page
 
   Background: 
     Given User is on retail website

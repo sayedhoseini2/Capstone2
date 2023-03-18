@@ -1,4 +1,4 @@
-Feature: Retail Application Account Feature
+Feature: This Feature is for testing UI feature of Retail Application Account page
 
   Background: 
     Given User is on retail website

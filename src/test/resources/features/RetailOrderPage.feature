@@ -1,4 +1,4 @@
-Feature: This feature is use for testing UI of Retail page as well
+Feature: This feature is use for testing UI of Retail Order page
 
 @AddOrderWithAddress @Smoketest
   Scenario: Verify User can place an order with Shipping address and payment Method on file

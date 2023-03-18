@@ -25,9 +25,13 @@ public class RetailOrderSteps extends CommonUtility{
 	    logger.info("user cicked on order link");
 	}
 
-	//@SuppressWarnings("unchecked")
+	
 	@When("User click on first order in list")
 	public void user_click_on_first_order_in_list() {
+		//Note To Teacher: I tried to create a method that select first order on the list
+		//with not cancelled already but did nor work, instead I add new order feature file  
+		//before cancellation feature file. 
+		
 		/*for (int i = 0; i < ((List<WebElement>) factory.orderPage().showHidebuttons).size(); i++) {
 			if (((List<WebElement>) factory.orderPage().showHidebuttons).get(i).getText().equals("Show Details")) {
 				click(((List<WebElement>) factory.orderPage().showHidebuttons).get(i));

@@ -1,4 +1,4 @@
-Feature: This feature is use for testing UI of Retail page
+Feature: This feature is use for testing UI of Retail Home page
 
   @searchProduct @Smoketest
   Scenario: Verify user can search a product

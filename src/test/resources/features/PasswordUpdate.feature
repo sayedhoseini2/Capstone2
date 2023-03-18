@@ -1,5 +1,5 @@
 @UpdatePassword @Smoketest
-Feature: Updating Password
+Feature: This Feature is for testing UI of Password Change
 
   # Note for teacher: I created separate password feature because everytime password changed and I was
   #trying to chnage password to previous password, test failed because password already changed.
