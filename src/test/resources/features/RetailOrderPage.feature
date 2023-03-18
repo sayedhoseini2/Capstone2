@@ -1,5 +1,24 @@
 Feature: This feature is use for testing UI of Retail page as well
 
+@AddOrderWithAddress @Smoketest
+  Scenario: Verify User can place an order with Shipping address and payment Method on file
+    Given User is on retail website
+    When User click on Sign in option
+    And User enter email 'smaisamh@gmail.com' and password 'Adamsho1@'
+    And User click on login button
+    And User should be logged in into Account
+    And User change the category to 'Smart Home'
+    And User search for an item ' mini smart plug '
+    And User click on Search icon
+    And User click on item
+    And User select quantity '2'
+    And User click add to Cart button
+    Then the cart icon quantity should change to '2'
+    And User click on Cart option
+    And User click on Proceed to Checkout button
+    And User click on Place Your Order
+    Then a message should be displayed ‘Order Placed, Thanks’
+
   @cancelAnOrder @Smoketest
   Scenario: Verify User can cancel the order
     Given User is on retail website
@@ -13,6 +32,26 @@ Feature: This feature is use for testing UI of Retail page as well
     And User select the cancelation Reason ‘Bought wrong item’
     And User click on Cancel Order button
     Then a cancelation message should be displayed ‘Your Order Has Been Cancelled’
+    
+    @AddOrderWithAddress @Smoketest
+  Scenario: Verify User can place an order with Shipping address and payment Method on file
+    Given User is on retail website
+    When User click on Sign in option
+    And User enter email 'smaisamh@gmail.com' and password 'Adamsho1@'
+    And User click on login button
+    And User should be logged in into Account
+    And User change the category to 'Smart Home'
+    And User search for an item ' mini smart plug '
+    And User click on Search icon
+    And User click on item
+    And User select quantity '2'
+    And User click add to Cart button
+    Then the cart icon quantity should change to '2'
+    And User click on Cart option
+    And User click on Proceed to Checkout button
+    And User click on Place Your Order
+    Then a message should be displayed ‘Order Placed, Thanks’
+    
 
   @returnAnOrder @Smoketest
   Scenario: Verify User can Return the order

@@ -34,7 +34,7 @@ public class DataGeneratorUtility {
 			outPut=faker.name().firstName();
 		}
 		else if (input.equals("lastName")){
-		    outPut=faker.name().lastName();
+		    outPut=faker.name().lastName().replaceAll("'", "");
 	}
 		else if (input.equals("email")) {
 		//outPut=faker.name().firstName()+ "." +faker.name().lastName() +"@tekschool.us";
@@ -44,7 +44,7 @@ public class DataGeneratorUtility {
 		outPut=faker.phoneNumber().cellPhone();
 	}
 	else if(input.equals("fullName")) {
-		outPut=faker.name().firstName();
+		outPut=faker.name().firstName().replace("'", "");
 	}
 	else if (input.equals("StreetAddress")) {
 		outPut=faker.address().streetAddress();
@@ -73,7 +73,7 @@ public class DataGeneratorUtility {
         } else if(input.equals("cardNumber")) {
         	outPut=faker.number().digits(16);
         } else if(input.equals("nameOnCard")) {
-        	outPut=faker.name().fullName();
+        	outPut=faker.name().fullName().replace("'", "");
         	
         } 
         else if(input.equals("expirationMonth")) {

@@ -53,7 +53,7 @@ public class RetailAccountSteps extends CommonUtility {
 	   logger.info("user clicked on address option");
 	}
 	@When("User fill new address form with below information")
-	public void userFillNewAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
+	public void userFillNewAddressFormWithBelowInformation(DataTable dataTable) {
 	    List<Map<String, String>> addressInfo= dataTable.asMaps(String.class, String.class);
 	    selectByValue(factory.accountPage.country,DataGeneratorUtility.data(addressInfo.get(0).get("country")));
 	    sendText(factory.accountPage.addressFullNameField, DataGeneratorUtility.data(addressInfo.get(0).get("fullName")));
@@ -85,10 +85,10 @@ public class RetailAccountSteps extends CommonUtility {
 	    logger.info("user clicked om edit address option");
 	}
 	@When("user fill new address form with below information")
-	public void userFillEditAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
+	public void userFillEditAddressFormWithBelowInformation(DataTable dataTable) {
 		List<Map<String, String>> editAddressInfo= dataTable.asMaps(String.class, String.class);
 		clearTextUsingSendKeys(factory.accountPage().country);
-	    selectByVisibleText(factory.accountPage.country,DataGeneratorUtility.data(editAddressInfo.get(0).get("country")));
+	    selectByValue(factory.accountPage.country,"United States");
 	    clearTextUsingSendKeys(factory.accountPage().addressFullNameField);
 	    sendText(factory.accountPage.addressFullNameField, DataGeneratorUtility.data(editAddressInfo.get(0).get("fullName")));
 	    clearTextUsingSendKeys(factory.accountPage().addressPhoneNumberField);
@@ -100,10 +100,10 @@ public class RetailAccountSteps extends CommonUtility {
 	    clearTextUsingSendKeys(factory.accountPage().cityField);
 	    sendText(factory.accountPage.cityField, DataGeneratorUtility.data(editAddressInfo.get(0).get("city")));
 	    clearTextUsingSendKeys(factory.accountPage().stateDropDown);
-	    selectByVisibleText(factory.accountPage.stateDropDown, DataGeneratorUtility.data(editAddressInfo.get(0).get("state")));
+	    selectByValue(factory.accountPage.stateDropDown, DataGeneratorUtility.data(editAddressInfo.get(0).get("state")));
 	    clearTextUsingSendKeys(factory.accountPage().zipCodeField);
 	    sendText(factory.accountPage.zipCodeField,DataGeneratorUtility.data(editAddressInfo.get(0).get("zipcode")));
-	    logger.info("user added new addss information provided in data table");;
+	    logger.info("user added new addss information provided in data table");
 	}
 	@When("User click update Your Address button")
 	public void userClickUpdateYourAddressButton() {
@@ -145,10 +145,15 @@ public class RetailAccountSteps extends CommonUtility {
 	@When("User enter below information")
 	public void userEnterBelowInformation(DataTable dataTable) {
 		List<Map<String, String>> updatePassword = dataTable.asMaps(String.class, String.class);
-		sendText(factory.accountPage().previousPassword,DataGeneratorUtility.data(updatePassword.get(0).get("previousPassword")));
-		sendText(factory.accountPage().newPassword,DataGeneratorUtility.data(updatePassword.get(0).get("newPassword")));
-		sendText(factory.accountPage().confirmPassword, DataGeneratorUtility.data(updatePassword.get(0).get("confirmPassword")));
+		sendText(factory.accountPage().previousPassword,updatePassword.get(0).get("previousPassword"));
+		//sendText(factory.accountPage().previousPassword,"Adamsho1@");
+		sendText(factory.accountPage().newPassword,updatePassword.get(0).get("newPassword"));
+		//sendText(factory.accountPage().newPassword,"Aa123456@1");
+		sendText(factory.accountPage().confirmPassword, updatePassword.get(0).get("confirmPassword"));
+		//sendText(factory.accountPage().confirmPassword, "Aa123456@1");
 	    logger.info("user filled the updatePassword information form" +"with updated password of "+ DataGeneratorUtility.data(updatePassword.get(0).get("newPassword")));
+	    //logger.info("user filled the updatePassword information form" +"with updated password of "+ "Aa123456@1");
+	    
 	   	}
 	
 	@When("User click on Change Password button")
@@ -157,10 +162,10 @@ public class RetailAccountSteps extends CommonUtility {
 	    logger.info("user clicked on chnaged password button");
 	}
 	@Then("a message should be displayed2 {string}")
-	public void aMessageShouldBeDisplayed2() {
+	public void aMessageShouldBeDisplayed2(String string) {
 		waitTillPresence(factory.accountPage.passwordUpdatedMessage);
-	   //Assert.assertEquals(expectedMessage, factory.accountPage.passwordUpdatedMessage.getText());
-	    Assert.assertTrue(isElementDisplayed(factory.accountPage().passwordUpdatedMessage));
+	   Assert.assertEquals(factory.accountPage.passwordUpdatedMessage.getText(),"Password Updated Successfully");
+	    //Assert.assertTrue(isElementDisplayed(factory.accountPage().passwordUpdatedMessage));
 	    logger.info("Password Updated Successfully");
 	}
 	
@@ -227,7 +232,8 @@ public class RetailAccountSteps extends CommonUtility {
 	@Then("a message should be displayed ‘Payment Method updated Successfully’")
 	public void aMessageShouldBeDisplayedPaymentMethodUpdatedSuccessfully() {
 		waitTillPresence(factory.accountPage().paymentUpdatedMessage);
-		Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentUpdatedMessage));
+		//Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentUpdatedMessage));
+		Assert.assertEquals(factory.accountPage().paymentUpdatedMessage.getText(), "Payment Method updated Successfully");
 		logger.info("Payent method updated" );
 	}
 

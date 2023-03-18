@@ -79,8 +79,12 @@ public class RetailHomePage extends BaseSetup {
 	@FindBy(xpath="//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/img[1]")
 	public WebElement smartLedBulb;
 
-	@FindBy(xpath="//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/select[1]")
-	public WebElement quantityDropDown;
+	//@FindBy(xpath="//body/div[@id='root']/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/select[1]")
+	//@FindBy(xpath="//option[contains(text(),'2')]")
+	//public WebElement quantityDropDown;
+	
+	@FindBy(xpath = "//select[@class='product__select']")
+	public WebElement quantityDropdown;
 
 	@FindBy(xpath="//span[contains(text(),'Add to Cart')]")
 	public WebElement addToCart;

@@ -1,5 +1,7 @@
 package tek.sdet.framework.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -57,6 +59,18 @@ public class RetailOrderPage extends BaseSetup{
 
     @FindBy(xpath="//div[contains(text(),'Your review was added successfully')]")
 	public WebElement reviewAddedMessage;
+
+    @FindBy(xpath="//p[@class='order__header-btn']")
+	public Object showHidebuttons;
+    
+    @FindBy(xpath = "(//p[@class='order__header-btn'])[1]")
+	public WebElement firstOrderShowHideButton;
+    
+    @FindBy(xpath = "//button[@id='cancelBtn']")
+	public List<WebElement> cancelTheOrderButtons;
+
+	@FindBy(xpath = "(//button[@id='cancelBtn'])[1]")
+	public WebElement firstCancelTheOrderButton;
 	
 	
 	

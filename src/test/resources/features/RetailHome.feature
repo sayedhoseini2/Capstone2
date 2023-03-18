@@ -40,9 +40,9 @@ Feature: This feature is use for testing UI of Retail page
     And User search for an item 'mini smart plug'
     And User click on Search icon
     And User click on item
-    And User select quantity ‘2’
+    And User select quantity '2'
     And User click add to Cart button
-    Then the cart icon quantity should change to ‘2’
+    Then the cart icon quantity should change to '2'
 
   @AddOrderWithoutAddress @Smoketest
   Scenario: Verify User can place an order without Shipping address and payment Method on file
@@ -55,13 +55,14 @@ Feature: This feature is use for testing UI of Retail page
     And User search for an item 'mini smart plug'
     And User click on Search icon
     And User click on item
-    And User select quantity ‘2’
+    And User select quantity '2'
     And User click add to Cart button
-    Then the cart icon quantity should change to ‘2’
+    Then the cart icon quantity should change to '2'
     And User click on Cart option
     And User click on Proceed to Checkout button
     And User click Add a new address link for shipping address
     And User fill new address form with below information
+      | country | fullName | phoneNumber | StreetAddress | apt | city | state | zipcode |
       | country | fullName | phoneNumber | StreetAddress | apt | city | state | zipcode |
     And User click Add Your Address button
     And User click Add a credit card or Debit Card for Payment method
@@ -83,9 +84,9 @@ Feature: This feature is use for testing UI of Retail page
     And User search for an item ' mini smart plug '
     And User click on Search icon
     And User click on item
-    And User select quantity ‘2’
+    And User select quantity '2'
     And User click add to Cart button
-    Then the cart icon quantity should change to ‘2’
+    Then the cart icon quantity should change to '2'
     And User click on Cart option
     And User click on Proceed to Checkout button
     And User click on Place Your Order

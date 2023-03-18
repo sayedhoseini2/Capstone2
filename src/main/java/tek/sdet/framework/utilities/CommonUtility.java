@@ -202,4 +202,13 @@ public class CommonUtility extends BaseSetup {
     	js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
     }
     
+	public void turnOffImplicitWaits() {
+		getDriver().manage().timeouts().implicitlyWait(Duration.of(0, ChronoUnit.SECONDS));
+	}
+
+	public void turnOnImplicitWaits() {
+		getDriver().manage().timeouts().implicitlyWait(Duration.of(20, ChronoUnit.SECONDS));
+	}
+
+    
 }

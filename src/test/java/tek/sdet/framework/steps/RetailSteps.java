@@ -16,7 +16,7 @@ import tek.sdet.framework.utilities.CommonUtility;
 public class RetailSteps extends CommonUtility {
 
 	private POMFactory factory = new POMFactory();
-	// create object Retailapage
+	// create object Retail page
 
 	
 	@Given("User is on retail website")
@@ -126,9 +126,9 @@ public class RetailSteps extends CommonUtility {
 	    click(factory.homePage().miniSmartPlug);
 	    logger.info("user select an item");
 	}
-	@When("User select quantity ‘{int}’")
-	public void userSelectQuantity(Integer int1)  {
-	    selectByVisibleText(factory.homePage().quantityDropDown, "2");
+	@When("User select quantity {string}")
+	public void userSelectQuantity(String Quantity)  {
+	    selectByValue(factory.homePage().quantityDropdown, Quantity);
 	    logger.info("user select 2 items");
 	}
 	@When("User click add to Cart button")
@@ -136,14 +136,14 @@ public class RetailSteps extends CommonUtility {
 	    click(factory.homePage().addToCart);
 	    logger.info("user add the items to the card");
 	}
-	@Then("the cart icon quantity should change to ‘{int}’")
-	public void theCartIconQuantityShouldChangeTo(Integer int1) throws InterruptedException {
+	@Then("the cart icon quantity should change to {string}")
+	public void theCartIconQuantityShouldChangeTo(String Quantity) throws InterruptedException {
 		Assert.assertTrue(isElementDisplayed(factory.homePage().cartQuantity));
 		//Assert.assertEquals("2", cartQuantity.getText());
 		//click(factory.homePage().shoppingCard);
 		//Assert.assertTrue(isElementDisplayed(factory.homePage().miniSmartPlug));
 		Thread.sleep(3000);
-	    logger.info("user chnaged the number of items to 3 items");
+	    logger.info("user chnaged the number of items to 2 items");
 	}
 
 	@Then("User click on Cart option")
@@ -184,32 +184,5 @@ public class RetailSteps extends CommonUtility {
 	    Assert.assertTrue(isElementDisplayed(factory.homePage().orderPlacedThanks));
 	    logger.info("order placed successfully");
 	}
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 
 } 

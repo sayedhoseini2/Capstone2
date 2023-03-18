@@ -16,7 +16,6 @@ import tek.sdet.framework.utilities.DataGeneratorUtility;
 
 public class RetailOrderSteps extends CommonUtility{
 	
-	private static final boolean True = false;
 	private POMFactory factory = new POMFactory();
 	
 	@When("User click on Orders section")
@@ -26,10 +25,26 @@ public class RetailOrderSteps extends CommonUtility{
 	    logger.info("user cicked on order link");
 	}
 
+	//@SuppressWarnings("unchecked")
 	@When("User click on first order in list")
 	public void user_click_on_first_order_in_list() {
-	    //click(factory.orderPage().firstOrderOnList);
-	    logger.info("user clicked on first order on list");
+		/*for (int i = 0; i < ((List<WebElement>) factory.orderPage().showHidebuttons).size(); i++) {
+			if (((List<WebElement>) factory.orderPage().showHidebuttons).get(i).getText().equals("Show Details")) {
+				click(((List<WebElement>) factory.orderPage().showHidebuttons).get(i));
+			}
+			turnOffImplicitWaits();
+			if (factory.orderPage().cancelTheOrderButtons.size() == 1) {
+				break;
+			}
+		}
+		turnOnImplicitWaits();
+// Select first order
+
+//if (factory.orderPage().firstOrderShowHideButton.getText().equals("Show Details")) {
+//click(factory.orderPage().firstOrderShowHideButton); */
+   // click(factory.orderPage().firstCancelTheOrderButton);
+	logger.info("User clicked on first order in list");
+	    
 	}
 
 	@When("User click on Cancel The Order button")
@@ -112,8 +127,9 @@ public class RetailOrderSteps extends CommonUtility{
 	}
 	@Then("a review message should be displayed ‘Your review was added successfully’")
 	public void aReviewMessageShouldBeDisplayedYourReviewWasAddedSuccessfully() {
-		//waitTillPresence(factory.orderPage().reviewAddedMessage);
-		Assert.assertTrue(isElementDisplayed(factory.orderPage().reviewAddedMessage));
+		waitTillPresence(factory.orderPage().reviewAddedMessage);
+		//Assert.assertTrue(isElementDisplayed(factory.orderPage().reviewAddedMessage));
+		Assert.assertEquals(factory.orderPage().reviewAddedMessage.getText(),"Your review was added successfully");
 	    logger.info("Review Added Successfully");
 	}
 
